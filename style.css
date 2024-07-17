@@ -46,14 +46,24 @@ nav{
     padding: 20px 0;
 }
 
+
 .menu1{
     position: absolute;
-    top:70px;
+    top:90px;
     width: 260px;
     height: 100vh;
 }
 
 .menu2{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 260px;
+    width: 260px;
+    height: 100vh;
+}
+.menu3{
+    display: none;
     position: absolute;
     top:0;
     left: 260px;
@@ -61,7 +71,7 @@ nav{
     height: 100vh;
 }
 
-.dropdown:hover .dropdown-menu{
+.dd1:hover>.dropdown-menu{
     display: block;
 }
 
@@ -81,4 +91,9 @@ nav{
     padding: 5px 0;
    
   }
-
+  .show:hover .menu2{
+    display: block;
+  }
+  .show2:hover .menu3{
+    display: block;
+  }
