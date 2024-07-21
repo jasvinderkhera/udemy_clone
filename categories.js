@@ -634,3 +634,40 @@ other_business_content.forEach(element=>{
 
 `
 })
+
+
+//------------------------------------------------------Business End-------------------------------------------------------------
+
+//-----------------------------------------Finance & Accounting----------------------------------------------------------------
+
+let accounting_and_bookkeeping_content = [
+  {name:"Accounting",url:"accounting.html"},
+  {name:"Bookkeeping",url:"bookkeeping.html"},
+  {name:"QuickBooks",url:"quickbooks.html"},
+  {name:"Financial Accounting",url:"financial_accounting.html"},
+  {name:"Financial Fundamental",url:"financial_fundamental.html"},
+  {name:"TallyPrime (Tally.ERP)",url:"tallyprime.html"},
+  {name:"Uniform CPA Examination",url:"uniform.html"},
+  {name:"International Financial Reporting Standards (IFRS)",url:"ifrs.html"},
+  {name:"Xero",url:"xero.html"},
+]
+
+let accounting_and_bookkeeping = document.querySelector(".accounting_and_bookkeeping")
+accounting_and_bookkeeping_content.forEach(element=>{
+  accounting_and_bookkeeping.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+
+
+
+//-----------------------------------------Finance & Accounting end----------------------------------------------------------------
