@@ -33,7 +33,7 @@ nav {
   position: absolute;
   left: 15px;
   top: 16px;
-  color: #6a6f73;
+  color: gray;
 }
 
 .profile_pic {
@@ -79,7 +79,7 @@ nav {
 }
 
 .pad {
-  color: #6a6f73;
+  color: #525252;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,7 +98,6 @@ nav {
 li a{
     text-wrap: wrap !important;
 }
-li a:hover{
+a:hover{
   color: #5622c3 !important;
-  background-color: white;;
 }

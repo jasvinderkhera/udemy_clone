@@ -305,7 +305,7 @@ let management_content = [
   {name:"Management Skills",url:"management_skills.html"},
   {name:"ISO 9001",url:"iso9001.html"},
   {name:"Business Strategy",url:"business_strategy.html"},
-  {name:"CIPS Level 4 Diploma in Procurement and Supply",url:"cips_level.html"},
+  {name:"CIPS Level 4 Diploma in Procurement and Supply",url:"cips.html"},
   {name:"Quality Management",url:"quality_management.html"},
   {name:"Product Management",url:"prdouct_management.html"},
   {name:"Risk Management",url:"risk_management.html"},
@@ -443,6 +443,187 @@ let business_law_content = [
 let business_law = document.querySelector(".business_law")
 business_law_content.forEach(element=>{
   business_law.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let business_analytics_content = [
+  {name:"Microsoft Power BI",url:"microsoft_power.html"},
+  {name:"SQL",url:"sql.html"},
+  {name:"Data Modeling",url:"data_modeling.html"},
+  {name:"Data Analysis",url:"data_analysis.html"},
+  {name:"Business Analysis",url:"business_analysis.html"},
+  {name:"Tableau",url:"tableau.html"},
+  {name:"Data Analysis Expression (DAX)",url:"data_analysis_expression.html"},
+  {name:"Business Analytics",url:"business_analytics.html"},
+  {name:"Business Intelligence (BI)",url:"business_intelligence.html"},
+]
+
+let business_analytics  = document.querySelector(".business_analytics")
+business_analytics_content.forEach(element=>{
+  business_analytics.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let human_resources_content = [
+  {name:"Recruiting and Hiring",url:"recruiting_and_hiring.html"},
+  {name:"HR Analytics",url:"hr_analytics.html"},
+  {name:"Employment Law",url:"employment_law.html"},
+  {name:"Corporate Learning and Development (L&D)",url:"corporate_learning.html"},
+  {name:"Society for Human Resource Management Certified Professional (SHRM-CP)",url:"society.html"},
+  {name:"Conflict Management",url:"conflict_management.html"},
+  {name:"Emotional Intelligence",url:"emotional_intelligence.html"},
+  {name:"Diversity and Inclusion",url:"diversity_and_inclusion.html"},
+]
+
+let human_resources = document.querySelector(".human_resources")
+human_resources_content.forEach(element=>{
+  human_resources.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let industry_content = [
+  {name:"Piping",url:"piping.html"},
+  {name:"Oil and Gas Industry",url:"oil_and_gas_industry.html"},
+  {name:"Control Engineering",url:"control_engineering.html"},
+  {name:"Workplace Health and Safety",url:"workplace.html"},
+  {name:"Chemical Engineering",url:"chemical_engineering.html"},
+  {name:"Life Coach Training",url:"life.html"},
+  {name:"Aviation",url:"avaiation.html"},
+  {name:"Electrical Engineering",url:"electrical_engineering.html"},
+  {name:"Aspen Plus",url:"aspen_plus.html"},
+]
+
+let industry = document.querySelector(".industry")
+industry_content.forEach(element=>{
+  industry.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let e_commerce_content = [
+  {name:"Amazon FBA",url:"amazon_fba.html"},
+  {name:"Dropshipping",url:"dropshipping.html"},
+  {name:"Shopify Dropshipping",url:"shopify_dropshipping.html"},
+  {name:"Shopify",url:"shopify.html"},
+  {name:"Etsy",url:"etsy.html"},
+  {name:"Amazon Kindle Direct Publishing (KDP)",url:"amazon_kindle.html"},
+  {name:"Selling on Amazon",url:"selling_on_amazon.html"},
+  {name:"Passive Income",url:"passive_income.html"},
+]
+
+let e_commerce = document.querySelector(".e_commerce")
+e_commerce_content.forEach(element=>{
+  e_commerce.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let media_content = [
+  {name:"Screen Writing and Script Writing",url:"screen.html"},
+  {name:"Amazon Kindle Direct Publising (KDP)",url:"amazon_kindle.html"},
+  {name:"Audiobook Creation",url:"audiobook_creation.html"},
+  {name:"Search Engine Optimization (SEO)",url:"search_engine_optimization.html"},
+  {name:"Content Creation",url:"content_creation.html"},
+  {name:"Journalism",url:"journalism.html"},
+  {name:"Generative AI (GenAI)",url:"generative_ai.html"},
+  {name:"Scrivener",url:"scrivener.html"},
+  {name:"Creative Writing",url:"creative_writing.html"},
+]
+
+let media = document.querySelector(".media")
+media_content.forEach(element=>{
+  media.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let real_estate_content = [
+  {name:"Real Estate Investing",url:"real_estate_investing.html"},
+  {name:"Airbnb Hosting",url:"airbnb_hosting.html"},
+  {name:"Construction",url:"construction.html"},
+  {name:"Mortgage",url:"mortgage.html"},
+  {name:"Financial Modeling",url:"financial_modeling.html"},
+  {name:"Real Estate Marketing",url:"real_estate_marketing.html"},
+  {name:"Real Estate Flipping",url:"real_estate_flipping.html"},
+  {name:"Property Management",url:"property_management.html"},
+]
+
+let real_estate = document.querySelector(".real_estate")
+real_estate_content.forEach(element=>{
+  real_estate.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let other_business_content = [
+  {name:"QuickBooks",url:"quickbooks.html"},
+  {name:"Data Entry Skills",url:"data_entry_skills.html"},
+  {name:"Grant Writing",url:"grant_writing.html"},
+  {name:"ChatGPT",url:"chatgpt.html"},
+  {name:"Transcription",url:"transcription.html"},
+  {name:"Rieki",url:"rieki.html"},
+  {name:"Freelance Writing",url:"freelance_writing.html"},
+  {name:"CIPS Level 4 Diploma in Procurement and Supply",url:"cips.html"},
+  {name:"Electronics",url:"electronics.html"},
+]
+
+let other_business = document.querySelector(".other_business")
+other_business_content.forEach(element=>{
+  other_business.innerHTML += `
   <li class="px-3 py-1">
     <a
       href="${element.url}"
