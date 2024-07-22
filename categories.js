@@ -929,5 +929,135 @@ other_financial_accounting_content.forEach(element=>{
 })
 
 
+let it_certifications_content = [
+  {name:"AWS Certified Cloud Practicioner",url:"aws_practitioner.html"},
+  {name:"AWS Certified Solutions Architect - Associate",url:"aws_associate.html"},
+  {name:"CompTIA Security+",url:"comptia_security.html"},
+  {name:"CompTIA A+",url:"comptia_a.html"},
+  {name:"Amazon AWS",url:"amazon_aws.html"},
+  {name:"Cisco Certified Network Associate (CCNA)",url:"cisco.html"},
+  {name:"Information Security",url:"information_security.html"},
+  {name:"CompTIA Network+",url:"comptia_network.html"},
+  {name:"AWS Certified Developer - Associate",url:"aws_associate.html"},
+]
+
+let it_certifications = document.querySelector(".it_certifications")
+it_certifications_content.forEach(element=>{
+  it_certifications.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let network_and_security_content = [
+  {name:"Ethical Hacking",url:"ethical_hacking.html"},
+  {name:"Cybersecurity",url:"cybersecurity.html"},
+  {name:"Network Security",url:"network_security.html"},
+  {name:"Penetration Testing",url:"penetration_testing.html"},
+  {name:"Kubernetes",url:"kubernetes.html"},
+  {name:"CompTIA Network+",url:"comptia_network.html"},
+  {name:"IT Networking Fundamentals",url:"it_networking_fundamentals.html"},
+  {name:"CompTIA Security+",url:"comptia_security.html"},
+  {name:"Information Security",url:"information_security.html"},
+]
+
+let network_and_security = document.querySelector(".network_and_security")
+network_and_security_content.forEach(element=>{
+  network_and_security.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let hardware_content = [
+  {name:"PLC",url:"plc.html"},
+  {name:"Arduino",url:"arduino.html"},
+  {name:"Electronics",url:"electronics.html"},
+  {name:"Microcontroller",url:"microcontroller.html"},
+  {name:"Embedded Systems",url:"embedded_systems.html"},
+  {name:"Embedded C",url:"embedded_c.html"},
+  {name:"Raspberry Pi",url:"raspberry_pi.html"},
+  {name:"SystemVerilog",url:"systemverilog.html"},
+  {name:"HMI",url:"hmi.html"},
+]
+
+let hardware = document.querySelector(".hardware")
+hardware_content.forEach(element=>{
+  hardware.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let operating_system_and_servers_content = [
+  {name:"Linux",url:"linux.html"},
+  {name:"Linux Administration",url:"linux_administration.html"},
+  {name:"Windows Server",url:"windows_server.html"},
+  {name:"Operating System",url:"operating_system.html"},
+  {name:"Active Directory",url:"active_directory.html"},
+  {name:"Shell Scripting",url:"Shell Scripting.html"},
+  {name:"Powershell",url:"powershell.html"},
+  {name:"Linux Command Line",url:"linux_command_line.html"},
+  {name:"Proxmox VE",url:"proxmox_ve.html"},
+]
+
+let operating_system_and_servers = document.querySelector(".operating_system_and_servers")
+operating_system_and_servers_content.forEach(element=>{
+  operating_system_and_servers.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let other_it_and_software_content = [
+  {name:"DevOps",url:"devops.html"},
+  {name:"ChatGPT",url:"chatgpt.html"},
+  {name:"Python",url:"python.html"},
+  {name:"Data Science",url:"data_science.html"},
+  {name:"Generative AI (GenAI)",url:"generative_ai.html"},
+  {name:"Microsoft Excel",url:"microsoft_excel.html"},
+  {name:"Microsoft Azure",url:"microsoft_azure.html"},
+  {name:"Terraform",url:"terraform.html"},
+  {name:"Microservices",url:"microservices.html"},
+]
+
+let other_it_and_software = document.querySelector(".other_it_and_software")
+other_it_and_software_content.forEach(element=>{
+  other_it_and_software.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
 
 //-----------------------------------------Finance & Accounting end----------------------------------------------------------------
