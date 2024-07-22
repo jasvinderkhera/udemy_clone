@@ -1059,5 +1059,161 @@ other_it_and_software_content.forEach(element=>{
 `
 })
 
+let microsoft_content  = [
+  {name:"Microsoft Excel",url:"microsoft_excel.html"},
+  {name:"Microsoft 365 (Office)",url:"microsoft_365_office.html"},
+  {name:"Microsoft Power BI",url:"microsoft_power_bi.html"},
+  {name:"Excel VBA",url:"excel_vba.html"},
+  {name:"Powerpoint",url:"powerpoint.html"},
+  {name:"Excel Formulas and Functions",url:"excel_formulas.html"},
+  {name:"Pivot Tables",url:"pivot_tables.html"},
+  {name:"Microsoft 365 Copilot",url:"microsoft_365_copilot.html"},
+  {name:"Data Analysis",url:"data_analysis.html"},
+]
+
+let microsoft = document.querySelector(".microsoft")
+microsoft_content.forEach(element=>{
+  microsoft.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let apple_content = [
+  {name:"Mac Basics",url:"mac_basics.html"},
+  {name:"iMovie",url:"imovie.html"},
+  {name:"macOS",url:"macos.html"},
+  {name:"Apple Keynote",url:"apple_keynote.html"},
+  {name:"Numbers For Mac",url:"numbers_for_mac.html"},
+  {name:"Apple Products Basics",url:"apple_products_basics.html"},
+  {name:"Mac Pages",url:"mac_pages.html"},
+  {name:"Microsoft 365 (Office)",url:"microsoft_365_office.html"},
+  {name:"Microsoft Word",url:"microsoft_word.html"},
+]
+
+let apple = document.querySelector(".apple")
+apple_content.forEach(element=>{
+  apple.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let google_content = [
+  {name:"Google Sheets",url:"google_sheets.html"},
+  {name:"Google Workspace (G Suite)",url:"google_workspace.html"},
+  {name:"Google Looker Studio (Data Studio)",url:"google_looker_studio.html"},
+  {name:"Google Appsheet",url:"google_appsheet.html"},
+  {name:"Google Looker",url:"google_looker.html"},
+  {name:"Google Apps Script",url:"google_apps_script.html"},
+  {name:"Gmail Productivity",url:"gmail_productivity.html"},
+  {name:"Google Drive ",url:"google_drive.html"},
+  {name:"Microsoft Excel",url:"microsoft_excel.html"},
+
+]
+
+let google = document.querySelector(".google")
+google_content.forEach(element=>{
+  google.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let sap_content = [
+  {name:"SAP S/4HANA",url:"sap_s/hana.html"},
+  {name:"SAP Materials Management (SAP MM)",url:"sap_mm.html"},
+  {name:"SAP ABAP",url:"sap_abap.html"},
+  {name:"SAP Sales and Distribution (SAP SD)",url:"sap_sd.html"},
+  {name:"SAP FICO",url:"sap_fico.html"},
+  {name:"SAP Business Technology Platform (SAP BTP)",url:"sap_btp.html"},
+  {name:"SAP HCM",url:"sap_hcm.html"},
+  {name:"SAP SuccessFactors",url:"sap_successfactors.html"},
+]
+
+let sap = document.querySelector(".sap")
+sap_content.forEach(element=>{
+  sap.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let oracle_content = [
+  {name:"Oracle Primavera",url:"oracle_primavera.html"},
+  {name:"Oracle SQL",url:"oracle_sql.html"},
+  {name:"Oracle Fusion HCM",url:"oracle_fusion.html"},
+  {name:"PL/SQL",url:"pl/sql.html"},
+  {name:"Oracle Database",url:"oracle_database.html"},
+  {name:"Project Management",url:"project_management.html"},
+  {name:"Database Administration",url:"database_administration.html"},
+  {name:"Oracle E-Business Suite",url:"oracle_business_suite.html"},
+  {name:"Oracle Fusion Cloud Financials",url:"oracle_fcf.html"},
+]
+
+let oracle = document.querySelector(".oracle")
+oracle_content.forEach(element=>{
+  oracle.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let other_office_productivity_content = [
+  {name:"ChatGPT",url:"chatgpt.html"},
+  {name:"Notion Workspace",url:"notion_workspace.html"},
+  {name:"Python",url:"python.html"},
+  {name:"ServiceNow",url:"servicesnow.html"},
+  {name:"Programming Fundamentals",url:"programming_fundamentals.html"},
+  {name:"Typing",url:"typing.html"},
+  {name:"Computer Skills",url:"computer_skills.html"},
+  {name:"Generative AI (Gen AI)",url:"generative_ai.html"},
+  {name:"Construction Estimation",url:"construction_estimation.html"},
+]
+
+let other_office_productivity = document.querySelector(".other_office_productivity")
+other_office_productivity_content.forEach(element=>{
+  other_office_productivity.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
 
 //-----------------------------------------Finance & Accounting end----------------------------------------------------------------
