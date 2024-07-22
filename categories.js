@@ -667,6 +667,266 @@ accounting_and_bookkeeping_content.forEach(element=>{
 })
 
 
+let compliance_content = [
+  {name:"Anti-Money Laundering (AML)",url:"anti_money.html"},
+  {name:"Criminology",url:"criminology.html"},
+  {name:"Internal Controls",url:"internal_controls.html"},
+  {name:"Fraud Analytics",url:"fraud_analytics.html"},
+  {name:"Compliance Management",url:"compliance_management.html"},
+  {name:"Trade and Commerce",url:"trade_and_commmerce.html"},
+  {name:"Risk Management",url:"risk_management.html"},
+  {name:"Internal Auditing",url:"internal_auditing.html"},
+  {name:"Compliance (IT)",url:"compliance.html"},
+]
+
+let compliance = document.querySelector(".compliance")
+compliance_content.forEach(element=>{
+  compliance.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let cryptocurrency_and_blockchain_content = [
+  {name:"Cryptocurrency",url:"cryptocurrency.html"},
+  {name:"Blockchain",url:"blockchain.html"},
+  {name:"Bitcoin",url:"bitcoin.html"},
+  {name:"Binance",url:"binance.html"},
+  {name:"Algorithmic Trading",url:"algorithmic_trading.html"},
+  {name:"Day Trading",url:"day_trading.html"},
+  {name:"Online Arbitrage",url:"online_arbitrage.html"},
+  {name:"NFT (Non-Fungible Tokens)",url:"nft.html"},
+  {name:"Technical Analysis (finance)",url:"technical_analysis.html"},
+]
+
+let cryptocurrency_and_blockchain = document.querySelector(".cryptocurrency_and_blockchain")
+cryptocurrency_and_blockchain_content.forEach(element=>{
+  cryptocurrency_and_blockchain.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let economics_content =[
+  {name:"Macroeconimics",url:"macroeconomics.html"},
+  {name:"Microeconomics",url:"microeconomics.html"},
+  {name:"Stata",url:"stata.html"},
+  {name:"Global Economics",url:"global_economics.html"},
+  {name:"Finance Fundamental",url:"finance_fundamental.html"},
+  {name:"Econometics",url:"econometrics.html"},
+  {name:"Behavioral Economics",url:"behavioral_economics.html"},
+  {name:"Statistics",url:"statistics.html"},
+]
+
+let economics = document.querySelector(".economics")
+economics_content.forEach(element=>{
+  economics.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let finance_content = [
+  {name:"Personal Finance",url:"personal_finance.html"},
+  {name:"Finance Fundamentals",url:"finance_fundamentals.html"},
+  {name:"Investing Banking",url:"investing_banking.html"},
+  {name:"Banking",url:"banking.html"},
+  {name:"Corporate Finance",url:"corporate_finance.html"},
+  {name:"Chartered Finance Analyist (CFA)",url:"cfa.html"},
+  {name:"Finance Analysis",url:"finance_analysis.html"},
+  {name:"Financial Management",url:"financial_management.html"},
+  {name:"ChatGPT",url:"chatgpt.html"},
+]
+
+let finance = document.querySelector(".finance")
+finance_content.forEach(element=>{
+  finance.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let finance_cert_and_exam_prep_content = [
+  {name:"Chartered Finance Analyist (CFA)",url:"cfa.html"},
+  {name:"Certified Internal Auditor (CIA)",url:"cia.html"},
+  {name:"Certified Management Accountant (CMA)",url:"cma.html"},
+  {name:"ANBIMA Certification",url:"anbima.html"},
+  {name:"GARP Financial Risk Manager (FRM) Certification",url:"frm.html"},
+  {name:"Association of Chartered Certified Accountants (ACCA)",url:"acca.html"},
+  {name:"Certified Financial Planner (CFP)",url:"cfp.html"},
+  {name:"Finance Fundamentals",url:"finance_fundamentals.html"},
+  {name:"Financial Markets",url:"financial_markets.html"},
+]
+
+let finance_cert_and_exam_prep = document.querySelector(".finance_cert_and_exam_prep")
+finance_cert_and_exam_prep_content.forEach(element=>{
+  finance_cert_and_exam_prep.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let financial_modeling_and_analysis_content = [
+  {name:"Financial Analysis",url:"financial_analysis.html"},
+  {name:"Financial Modeling",url:"financial_modeling.html"},
+  {name:"Microsoft Excel",url:"microsoft_excel.html"},
+  {name:"Investment Banking",url:"investment_banking.html"},
+  {name:"Accounting",url:"accounting.html"},
+  {name:"Finance Fundamentals",url:"finance_fundamentals.html"},
+  {name:"Company Valution",url:"company_valuation.html"},
+  {name:"Python",url:"python.html"},
+  {name:"Financial Management",url:"financial_management.html"},
+]
+
+let financial_modeling_and_analysis = document.querySelector(".financial_modeling_and_analysis")
+financial_modeling_and_analysis_content.forEach(element=>{
+  financial_modeling_and_analysis.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let investing_and_trading_content = [
+  {name:"Stock Trading",url:"stock_trading.html"},
+  {name:"Investing",url:"investing.html"},
+  {name:"Forex Trading",url:"forex_trading.html"},
+  {name:"Technical Analysis (finance)",url:"technical_analysis.html"},
+  {name:"Algorithmic Trading",url:"algorithmic_trading.html"},
+  {name:"Options Trading",url:"options_trading.html"},
+  {name:"Financial Markets",url:"financial_markets.html"},
+  {name:"Day Trading",url:"day_trading.html"},
+  {name:"Financial Trading",url:"finacial_trading.html"},
+]
+
+let investing_and_trading = document.querySelector(".investing_and_trading")
+investing_and_trading_content.forEach(element=>{
+  investing_and_trading.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let money_management_tools_content = [
+  {name:"QuickBooks",url:"quickbooks.html"},
+  {name:"SAP FICO",url:"sap_fico.html"},
+  {name:"Xero",url:"xero.html"},
+  {name:"Microsoft Excel",url:"microsoft_excel.html"},
+  {name:"Financial Modeling",url:"financial_modeling.html"},
+  {name:"Excel Analytics",url:"excel_analytics.html"},
+  {name:"Credit Repair",url:"credti_repair.html"},
+  {name:"Personal Finance",url:"personal_finance.html"},
+  {name:"Excel VBA",url:"excel_vba.html"},
+]
+
+let money_management_tools = document.querySelector(".money_management_tools")
+money_management_tools_content.forEach(element=>{
+  money_management_tools.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let taxes_content = [
+  {name:"Tax Preparation",url:"tax_preparation.html"},
+  {name:"Goods and Services Tax (GST)",url:"gst.html"},
+  {name:"Accounting",url:"accounting.html"},
+  {name:"Value Added Tax (VAT)",url:"vat.html"},
+  {name:"Transfer Pricing",url:"transfer_pricing.html"},
+  {name:"Home Business",url:"home_business.html"},
+  {name:"Financial Accounting",url:"financial_accounting.html"},
+  {name:"Control Systems",url:"control_systems.html"},
+  {name:"Entrepreneurship Fundamentals",url:"entrepreneurship_fundamentals.html"},
+]
+
+
+let taxes = document.querySelector(".taxes")
+taxes_content.forEach(element=>{
+  taxes.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let other_financial_accounting_content = [
+  {name:"Accounting",url:"accounting.html"},
+  {name:"Certified Internal Auditor (CIA)",url:"cia.html"},
+  {name:"Stock Trading",url:"stock_trading.html"},
+  {name:"Personal Finance",url:"personal_finance.html"},
+  {name:"Finance Fundamentals",url:"finance_fundamentals.html"},
+  {name:"Payroll Accounting",url:"payroll_accounting.html"},
+  {name:"Financial Planning",url:"financial_planning.html"},
+  {name:"Insurance",url:"insurance.html"},
+  {name:"Internal Auditing",url:"internal_auditing.html"},
+]
+
+let other_financial_accounting = document.querySelector(".other_financial_accounting")
+other_financial_accounting_content.forEach(element=>{
+  other_financial_accounting.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
 
 
 
