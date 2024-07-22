@@ -1217,3 +1217,146 @@ other_office_productivity_content.forEach(element=>{
 })
 
 //-----------------------------------------Finance & Accounting end----------------------------------------------------------------
+
+
+//------------------------------------------Personal Development-------------------------------------------------------------------
+
+let personal_transformation_content = [
+  {name:"Life Coach Training",url:"life_coach_training.html"},
+  {name:"Neuro-Linguistic Programming (NLP)",url:"nlp.html"},
+  {name:"Personal Development",url:"personal_development.html"},
+  {name:"Sound Therapy",url:"sound_therapy.html"},
+  {name:"Horsemanship",url:"horsemanship.html"},
+  {name:"Coaching",url:"coaching.html"},
+  {name:"Mindfulness",url:"mindfulness.html"},
+  {name:"Emotional Intelligence",url:"emotional_intelligence.html"},
+]
+
+let personal_transformation = document.querySelector(".personal_transformation")
+personal_transformation_content.forEach(element=>{
+  personal_transformation.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let personal_productivity_content = [
+  {name:"Time Management",url:"time_management.html"},
+  {name:"ChatGPT",url:"chatgpt.html"},
+  {name:"Notion Workspace",url:"notion_workspace.html"},
+  {name:"Writing",url:"writing.html"},
+  {name:"Obsidian App",url:"obsidian_app.html"},
+  {name:"Organizational Skills",url:"organizational_skills.html"},
+  {name:"Speed Reading",url:"speed_reading.html"},
+  {name:"Focus Mastery",url:"focus_mastery.html"},
+]
+
+let personal_productivity = document.querySelector(".personal_productivity")
+personal_productivity_content.forEach(element=>{
+  personal_productivity.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let leadership_content = [
+  {name:"Management Skills",url:"management_skills.html"},
+  {name:"Manager Training",url:"manager_training.html"},
+  {name:"Coaching",url:"coaching.html"},
+  {name:"Conflict Management",url:"conflict_management.html"},
+  {name:"Communication Skills",url:"communication_skills.html"},
+  {name:"Realtionship Building",url:"relationship_building.html"},
+  {name:"Employee Engagement",url:"employee_engagement.html"},
+  {name:"Facilitation",url:"facilitation.html"},
+]
+
+let leadership = document.querySelector(".leadership")
+leadership_content.forEach(element=>{
+  leadership.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let career_development_content = [
+  {name:"Interviewing Skills",url:"interviewing_skills.html"},
+  {name:"Business Communication",url:"business_communication.html"},
+  {name:"IT/Technical Support",url:"it/technical_support.html"},
+  {name:"Business Writing",url:"business_writing.html"},
+  {name:"Job Search",url:"job_search.html"},
+  {name:"Resume and CV Writing",url:"resume.html"},
+  {name:"Car Repair",url:"car_repair.html"},
+  {name:"Building Inspection",url:"building_inspection.html"},
+]
+
+let career_development = document.querySelector(".career_development")
+career_development_content.forEach(element=>{
+  career_development.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let parenting_and_relationships_content = [
+  {name:"Parenting",url:"parenting.html"},
+  {name:"Relationship Building",url:"relationship_building.html"},
+  {name:"Couples Counseling",url:"couples_counseling.html"},
+  {name:"Child Psychology",url:"child_psychology.html"},
+  {name:"Marriage",url:"marriage.html"},
+  {name:"Generative AI",url:"generative_ai.html"},
+  {name:"Dating",url:"dating.html"},
+  {name:"Love",url:"love.html"},
+  {name:"Autism",url:"autism.html"},
+]
+
+let parenting_and_relationships = document.querySelector(".parenting_and_relationships")
+parenting_and_relationships_content.forEach(element=>{
+  parenting_and_relationships.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+
+
+
+
+
+
+
+
+
+//------------------------------------------Personal Development End-------------------------------------------------------------------
