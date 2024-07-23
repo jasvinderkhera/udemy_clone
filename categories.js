@@ -539,7 +539,7 @@ let e_commerce_content = [
   {name:"Shopify Dropshipping",url:"shopify_dropshipping.html"},
   {name:"Shopify",url:"shopify.html"},
   {name:"Etsy",url:"etsy.html"},
-  {name:"Amazon Kindle Direct Publishing (KDP)",url:"amazon_kindle.html"},
+  {name:"Amazon Kindle Direct Publishing (KDP)",url:"kdp.html"},
   {name:"Selling on Amazon",url:"selling_on_amazon.html"},
   {name:"Passive Income",url:"passive_income.html"},
 ]
@@ -1350,13 +1350,298 @@ parenting_and_relationships_content.forEach(element=>{
 })
 
 
+let happiness_content = [
+  {name:"Life Coach Training",url:"life_coach_training.html"},
+  {name:"Manifestation and Law of Attraction",url:"manifestation.html"},
+  {name:"Cognitive Behavioral Therapy (CBT)",url:"cbt.html"},
+  {name:"Positive Psychology",url:"positive_psychology.html"},
+  {name:"Personal Success",url:"personal_success.html"},
+  {name:"Psychology",url:"psychology.html"},
+  {name:"Neuro-Linguistic Programming (NLP)",url:"nlp.html"},
+  {name:"Decluttering",url:"decluttering.html"},
+]
+
+let happiness = document.querySelector(".happiness")
+happiness_content.forEach(element=>{
+  happiness.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let esoteric_practices_content = [
+  {name:"Reiki",url:"reiki.html"},
+  {name:"Energy Healing",url:"energy_healing.html"},
+  {name:"Tarot Reading",url:"tarot_reading.html"},
+  {name:"Spiritual Healing",url:"spiritual_healing.html"},
+  {name:"Hypnotherapy",url:"hypnotherapy.html"},
+  {name:"Astrology",url:"astrology.html"},
+  {name:"Psychic",url:"psychic.html"},
+  {name:"Akashic Records",url:"akashic_records.html"},
+  {name:"Spirituality",url:"spirituality.html"},
+]
+
+let esoteric_practices = document.querySelector(".esoteric_practices")
+esoteric_practices_content.forEach(element=>{
+  esoteric_practices.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let religion_and_spirituality_content = [
+  {name:"Spirituality",url:"spirituality.html"},
+  {name:"Life Coach Training",url:"life_coach_training.html"},
+  {name:"Tarot Reading",url:"tarot_reading.html"},
+  {name:"Mindfulness",url:"mindfulness.html"},
+  {name:"Spiritual Healing",url:"spiritual_healing.html"},
+  {name:"Reiki",url:"reiki.html"},
+  {name:"Energy Healing",url:"energy_healing.html"},
+  {name:"The Bible",url:"the_bible.html"},
+  {name:"Kabbalah",url:"kabbalah.html"},
+]
+
+let religion_and_spirituality = document.querySelector(".religion_and_spirituality")
+religion_and_spirituality_content.forEach(element=>{
+  religion_and_spirituality.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
 
 
 
+let personal_brand_building_content = [
+  {name:"Personal Branding",url:"personal_branding.html"},
+  {name:"Meetings",url:"meetings.html"},
+  {name:"LinkedIn",url:"linkedin.html"},
+  {name:"Carrer Development",url:"carrer_development.html"},
+  {name:"Influencer Marketing",url:"influencer_marketing.html"},
+  {name:"Confidence",url:"confidence.html"},
+  {name:"Amazon Kindle Direct Publishing (KDP)",url:"kdp.html"},
+  {name:"Personal Networking",url:"personal_networking.html"},
+  {name:"Presentation Skills",url:"presentation_skills.html"},
+]
+
+
+let personal_brand_building = document.querySelector(".personal_brand_building")
+personal_brand_building_content.forEach(element=>{
+  personal_brand_building.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
 
 
 
+let creativity_content = [
+  {name:"Creative Writing",url:"creative_writing.html"},
+  {name:"Screenwriting and Scriptwriting",url:"screenwriting.html"},
+  {name:"Art Therapy",url:"art_therapy.html"},
+  {name:"Writing",url:"writing.html"},
+  {name:"Writing a Book",url:"writing_a_book.html"},
+  {name:"Storytelling",url:"storytelling.html"},
+  {name:"Self-Publishing",url:"self_publishing.html"},
+  {name:"Novel Writing",url:"novel_writing.html"},
+  {name:"Fiction Writing",url:"fiction_writing.html"},
+]
 
+let creativity = document.querySelector(".creativity")
+creativity_content.forEach(element=>{
+  creativity.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let influence_content = [
+  {name:"Voice Training",url:"voice_training.html"},
+  {name:"Communication Skills",url:"communication_skills.html"},
+  {name:"Persuation",url:"persuation.html"},
+  {name:"Public Speaking",url:"public_speaking.html"},
+  {name:"Negotiation",url:"negotiation.html"},
+  {name:"Body Language",url:"body_language.html"},
+  {name:"Influence Skills",url:"influence_skills.html"},
+  {name:"Confidence",url:"confidence.html"},
+  {name:"Influencer Marketing",url:"influencer_marketing.html"},
+]
+
+let influence = document.querySelector(".influence")
+influence_content.forEach(element=>{
+  influence.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let self_esteem_and_confidence_content = [
+  {name:"Confidence",url:"confidence.html"},
+  {name:"Self-Esteem",url:"self_esteem.html"},
+  {name:"Communication Skills",url:"communication_skills.html"},
+  {name:"Psychotherapy",url:"psychotherapy.html"},
+  {name:"Personal Development",url:"personal_development.html"},
+  {name:"Family Constellations Therapy",url:"family_constellations.html"},
+  {name:"Dance",url:"dance.html"},
+  {name:"Public Speaking",url:"public_speaking.html"},
+  {name:"Social Skills",url:"social_skills.html"},
+]
+
+
+let self_esteem_and_confidence = document.querySelector(".self_esteem_and_confidence")
+self_esteem_and_confidence_content.forEach(element=>{
+  self_esteem_and_confidence.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let stress_management_content = [
+  {name:"Anxiety Management",url:"anxiety_management.html"},
+  {name:"Emotional Intelligence",url:""},
+  {name:"Resilience",url:""},
+  {name:"Coaching",url:""},
+  {name:"Anger Management",url:""},
+  {name:"Sound Therapy",url:""},
+  {name:"Mindfulness",url:""},
+  {name:"Master Your Emotions",url:""},
+]
+
+let stress_management = document.querySelector(".stress_management")
+stress_management_content.forEach(element=>{
+  stress_management.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let memory_and_study_skills_content = [
+  {name:"Memory",url:""},
+  {name:"Speed Reading",url:""},
+  {name:"Learning Strategies",url:""},
+  {name:"Study Skills",url:""},
+  {name:"Focus Mastery",url:""},
+  {name:"Mind Mapping",url:""},
+  {name:"Obsidian App",url:""},
+  {name:"Artificial Intelligence (AI)",url:""},
+  {name:"Critical Thinking",url:""},
+]
+
+let memory_and_study_skills = document.querySelector(".memory_and_study_skills")
+memory_and_study_skills_content.forEach(element=>{
+  memory_and_study_skills.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let motivation_content = [
+  {name:"Neuroplasticity",url:""},
+  {name:"Neuro-Linguistic Programming (NLP)",url:"nlp.html"},
+  {name:"Procrastination",url:""},
+  {name:"Coaching",url:""},
+  {name:"Lotto",url:""},
+  {name:"Personal Development",url:""},
+  {name:"Personal Success",url:""},
+  {name:"Goal Setting",url:""},
+]
+
+let motivation = document.querySelector(".motivation")
+motivation_content.forEach(element=>{
+  motivation.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let other_personal_development_content = [
+  {name:"Project Management",url:""},
+  {name:"Freight Brokering",url:""},
+  {name:"Contract Law ",url:""},
+  {name:"Public Speaking",url:""},
+  {name:"Car Repair",url:""},
+  {name:"eSports",url:""},
+  {name:"Hypnotherapy",url:""},
+  {name:"Lucid Dreaming",url:""},
+  {name:"Sound Therapy",url:""},
+]
+
+let other_personal_development = document.querySelector(".other_personal_development")
+other_personal_development_content.forEach(element=>{
+  other_personal_development.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
 
 
 //------------------------------------------Personal Development End-------------------------------------------------------------------
