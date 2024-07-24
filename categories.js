@@ -111,7 +111,7 @@ game_development_content.forEach(element => {
 });
 
 
-let database_design_development_content =[
+let database_design_development_content = [
   { name: "SQL" },
   { name: "MySQL" },
   { name: "Database Management System (DBMS)" },
@@ -219,7 +219,7 @@ software_development_tools_content.forEach(element => {
     `
 });
 
-let no_code_development_content =[
+let no_code_development_content = [
   { name: "Generative AI (Gen AI)" },
   { name: "WordPress" },
   { name: "Bubble Visual Programming" },
@@ -364,7 +364,7 @@ sales_content.forEach(element => {
 })
 
 
-let business_strategy_content =[
+let business_strategy_content = [
   { name: "IIBA Entry Certificate in Business Analytics (ECBA)" },
   { name: "Environmental Social and Governance (ESG)" },
   { name: "Prompt Engineering" },
@@ -443,7 +443,7 @@ project_management_content.forEach(element => {
 `
 })
 
-let business_law_content =[
+let business_law_content = [
   { name: "AI Ethics and Governance" },
   { name: "Law" },
   { name: "GDPR" },
@@ -497,7 +497,7 @@ business_analytics_content.forEach(element => {
 })
 
 
-let human_resources_content =[
+let human_resources_content = [
   { name: "Recruiting and Hiring" },
   { name: "HR Analytics" },
   { name: "Employment Law" },
@@ -962,7 +962,7 @@ other_financial_accounting_content.forEach(element => {
 })
 
 
-let it_certifications_content =[
+let it_certifications_content = [
   { name: "AWS Certified Cloud Practitioner" },
   { name: "AWS Certified Solutions Architect - Associate" },
   { name: "CompTIA Security+" },
@@ -1179,7 +1179,7 @@ google_content.forEach(element => {
 `
 })
 
-let sap_content =[
+let sap_content = [
   { name: "SAP S/4HANA" },
   { name: "SAP Materials Management (SAP MM)" },
   { name: "SAP ABAP" },
@@ -2646,21 +2646,111 @@ portrait_photography_content.forEach(element => {
   portrait_photography.innerHTML += `
   <li class="px-3 py-1">
     <a
-      
       class="dropdown-item pad pad_2"
-      >${element.name}</a
-    >
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let photography_tools_content = [
+  { name: "Adobe Lightroom" },
+  { name: "Adobe Photoshop" },
+  { name: "Image Editing" },
+  { name: "Digital Camera Functionality" },
+  { name: "Affinity Photo" },
+  { name: "Photoshop Retouching" },
+  { name: "Photography" },
+  { name: "Drone and Aerial Photography" },
+  { name: "Darktable" },
+]
+
+let photography_tools = document.querySelector(".photography_tools")
+photography_tools_content.forEach(element => {
+  photography_tools.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
   </li>
 
 `
 })
 
 
+let commercial_photography_content = [
+  {name:"Real Estate Photography"},
+  {name:"Photography Business"},
+  {name:"Architecture Photography"},
+  {name:"Wedding Photography"},
+  {name:"Photoshop Retouching"},
+  {name:"Product Photography"},
+  {name:"Food Photography"},
+  {name:"Photography"},
+  {name:"Drone and Aerial Photography"},
+]
+
+let commercial_photography = document.querySelector(".commercial_photography")
+commercial_photography_content.forEach(element => {
+  commercial_photography.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
 
 
+let video_design_content = [
+  {name:"Video Editing"},
+  {name:"Adobe Premiere Pro"},
+  {name:"Video Production"},
+  {name:"DaVinci Resolve"},
+  {name:"Adobe After Effects"},
+  {name:"CapCut"},
+  {name:"Filmmaking"},
+  {name:"Color Grading"},
+  {name:"Social Media Marketing"},
+]
 
 
+let video_design = document.querySelector(".video_design")
+video_design_content.forEach(element => {
+  video_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
 
+`
+})
+
+let other_photography_and_video_content = [
+  {name:"Generative AI (GenAI)"},
+  {name:"YouTube Audience Growth"},
+  {name:"Photography"},
+  {name:"Video Editing"},
+  {name:"Video Creation"},
+  {name:"Drone and Aerial Photography"},
+  {name:"VFX Visual Effects"},
+  {name:"Filmmaking"},
+  {name:"GoPro"},
+]
+
+let other_photography_and_video = document.querySelector(".other_photography_and_video")
+other_photography_and_video_content.forEach(element => {
+  other_photography_and_video.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
 
 
 //------------------------------------------Photography and Video End----------------------------------------------------------------------------------
