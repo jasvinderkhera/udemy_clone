@@ -2523,3 +2523,93 @@ other_lifestyle_content.forEach(element => {
 })
 
 //------------------------------------------Lifestyle End----------------------------------------------------------------------------------
+
+
+//------------------------------------------Photography and Video----------------------------------------------------------------------------------
+
+
+let digital_photography_content = [
+  {name:"iPhone Photography"},
+  {name:"Photography"},
+  {name:"Digital Camera Functionality"},
+  {name:"Mobile Photography"},
+  {name:"Adobe Ligntroom"},
+  {name:"Affinity Photo"},
+  {name:"GIMP"},
+  {name:"Adobe Photoshop"},
+]
+
+let digital_photography = document.querySelector(".digital_photography")
+digital_photography_content.forEach(element => {
+  digital_photography.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let photography_content = [
+  {name:"Photography Composition"},
+  {name:"Product Photography"},
+  {name:"Digital Photography"},
+  {name:"Mobile Photography"},
+  {name:"Food Photography"},
+  {name:"Night Photography"},
+  {name:"iPhone Photography"},
+  {name:"Landscape Photography"},
+]
+
+let photography = document.querySelector(".photography")
+photography_content.forEach(element => {
+  photography.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let portrait_photography_content = [
+  {name:"Posing"},
+  {name:"Photography Lighting"},
+  {name:"Photography"},
+  {name:"Photoshop Retouching"},
+  {name:"Family Portrait Photography"},
+  {name:"Adobe Photoshop"},
+  {name:"Photography Business"},
+  {name:"Digital Camera Functionality"},
+]
+
+let portrait_photography = document.querySelector(".portrait_photography")
+portrait_photography_content.forEach(element => {
+  portrait_photography.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+
+
+
+
+
+
+
+//------------------------------------------Photography and Video End----------------------------------------------------------------------------------
