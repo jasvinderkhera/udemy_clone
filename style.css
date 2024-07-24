@@ -110,13 +110,34 @@ a:hover {
 }
 
 .carousel {
+  position: relative;
   height: 400px;
   width: 1300px;
 }
 
-/* .slick-arrow:before{
+.slick-arrow:before{
   color:black !important;
-} */
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.slick-prev:before,.slick-next:before{
+font-size: 50px !important;
+}
+
+.slick-prev.slick-arrow,.slick-next.slick-arrow{
+  z-index: 1;
+}
+.slick-prev:before{
+  position: absolute;
+  top:-10px;
+  left: 50px;
+}
+.slick-next:before{
+  position: absolute;
+  top:-10px;
+  right: 70px;
+}
 
 .carousel_box {
   position: relative;
