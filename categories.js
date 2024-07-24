@@ -1645,3 +1645,641 @@ other_personal_development_content.forEach(element=>{
 
 
 //------------------------------------------Personal Development End-------------------------------------------------------------------
+
+//--------------------------------------------Design-----------------------------------------------------------------------------------
+
+
+let web_design_content = [
+  {name:"Mobile App Design",url:""},
+  {name:"WordPress",url:""},
+  {name:"CSS",url:""},
+  {name:"Figma",url:""},
+  {name:"User Interface Design",url:""},
+  {name:"Elementor",url:""},
+  {name:"HTML",url:""},
+  {name:"Webflow",url:""},
+]
+
+
+let web_design = document.querySelector(".web_design")
+web_design_content.forEach(element=>{
+  web_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let graphic_design_and_illustration_content = [
+  {name:"Graphic Design",url:""},
+  {name:"Adobe Photoshop",url:""},
+  {name:"Adobe Illustrator",url:""},
+  {name:"Canva",url:""},
+  {name:"Drawing",url:""},
+  {name:"Procreate Digital Illustration App",url:""},
+  {name:"Adobe Indesign",url:""},
+  {name:"Digital Painting",url:""},
+  {name:"Design Theory",url:""},
+]
+
+let graphic_design_and_illustration = document.querySelector(".graphic_design_and_illustration")
+graphic_design_and_illustration_content.forEach(element=>{
+  graphic_design_and_illustration.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let design_tools_content = [
+  {name:"AutoCAD",url:""},
+  {name:"SOLIDWORKS",url:""},
+  {name:"Midjourney",url:""},
+  {name:"Adobe Photoshop",url:""},
+  {name:"Fignma",url:""},
+  {name:"Adobe After Effects",url:""},
+  {name:"Procreate Digital Illustration App",url:""},
+  {name:"Canva",url:""},
+  {name:"Adobe Premiere Pro",url:""},
+]
+
+let design_tools = document.querySelector(".design_tools")
+design_tools_content.forEach(element=>{
+  design_tools.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let user_experience_design_content = [
+  {name:"User Experience (UX) Design",url:""},
+  {name:"Figma",url:""},
+  {name:"User Interface Design",url:""},
+  {name:"Adobe XD",url:""},
+  {name:"Product Design",url:""},
+  {name:"UX Writing (User Experience Writing)",url:""},
+  {name:"Design Thinking",url:""},
+  {name:"Web Accessibility",url:""},
+  {name:"Web Design",url:""},
+]
+
+
+let user_experience_design = document.querySelector(".user_experience_design")
+user_experience_design_content.forEach(element=>{
+  user_experience_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let game_design_content =[
+  {name:"Pixel Art",url:""},
+  {name:"Unreal Engine",url:""},
+  {name:"Unity",url:""},
+  {name:"Blender",url:""},
+  {name:"3D Modeling",url:""},
+  {name:"Game Development Fundamentals",url:""},
+  {name:"Level Design",url:""},
+]
+
+let game_design = document.querySelector(".game_design")
+game_design_content.forEach(element=>{
+  game_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let three_d_and_animation_content = [
+  {name:"Blender",url:""},
+  {name:"3D Modeling",url:""},
+  {name:"Adobe After Effects",url:""},
+  {name:"Motion Graphics",url:""},
+  {name:"3D Printing",url:""},
+  {name:"Autodesk Fusion 360",url:""},
+  {name:"Unreal Engine",url:""},
+  {name:"3D Animation",url:""},
+  {name:"zBrush",url:""},
+]
+
+
+let three_d_and_animation = document.querySelector(".three_d_and_animation")
+three_d_and_animation_content.forEach(element=>{
+  three_d_and_animation.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let fashion_design_content = [
+  {name:"Fashion",url:""},
+  {name:"Pattern Making (fashion)",url:""},
+  {name:"Sewing",url:""},
+  {name:"3D Fashion Design",url:""},
+  {name:"Jewelry Design",url:""},
+  {name:"Textiles",url:""},
+  {name:"Adobe Illustrator",url:""},
+  {name:"Jewelry Making",url:""},
+]
+
+let fashion_design = document.querySelector(".fashion_design")
+fashion_design_content.forEach(element=>{
+  fashion_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let architectural_design_content= [
+  {name:"Revit",url:""},
+  {name:"AutoCAD",url:""},
+  {name:"LEED",url:""},
+  {name:"SketchUp",url:""},
+  {name:"Building Information Modeling (BIM)",url:""},
+  {name:"ARCHICAD",url:""},
+  {name:"3D Modeling",url:""},
+  {name:"Blender",url:""},
+]
+
+let architectural_design = document.querySelector(".architectural_design")
+architectural_design_content.forEach(element=>{
+  architectural_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let interior_design_content = [
+  {name:"SketchUp",url:""},
+  {name:"Color Theory",url:""},
+  {name:"HVAC",url:""},
+  {name:"Lighting Design",url:""},
+  {name:"Home Staging",url:""},
+  {name:"Electrical Engineering",url:""},
+  {name:"Revit",url:""},
+  {name:"Blender",url:""},
+]
+
+let interior_design = document.querySelector(".interior_design")
+interior_design_content.forEach(element=>{
+  interior_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let other_design_content = [
+  {name:"Electronics",url:""},
+  {name:"PCB Design",url:""},
+  {name:"Character Design",url:""},
+  {name:"Drawing",url:""},
+  {name:"Geometric Dimensioning and Tolerancing (GD&T)",url:""},
+  {name:"CATIA",url:""},
+  {name:"AutoCAD",url:""},
+  {name:"Microservices",url:""},
+  {name:"Software Architectural",url:""},
+]
+
+let other_design = document.querySelector(".other_design")
+other_design_content.forEach(element=>{
+  other_design.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+//--------------------------------------------Design End-------------------------------------------------------------------------------
+
+
+//-------------------------------------------Marketing------------------------------------------------------------------------------
+
+
+let digital_marketing_content = [
+  {name:"Social Media Marketing",url:""},
+  {name:"Marketing Strategy",url:""},
+  {name:"Internet Marketing",url:""},
+  {name:"ChatGPT",url:""},
+  {name:"Google Analytics",url:""},
+  {name:"Copywriting",url:""},
+  {name:"Startup",url:""},
+  {name:"Sales Funnel",url:""},
+]
+
+let digital_marketing = document.querySelector(".digital_marketing")
+digital_marketing_content.forEach(element=>{
+  digital_marketing.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let search_engine_optimization_content = [
+  {name:"Search Engine Optimization (SEO)",url:""},
+  {name:"WordPress",url:""},
+  {name:"Keyword Research",url:""},
+  {name:"Google Business Profile (Google My Business)",url:""},
+  {name:"Local SEO",url:""},
+  {name:"SEO Audit",url:""},
+  {name:"Link Building",url:""},
+  {name:"ChatGPT",url:""},
+  {name:"SEMrush",url:""},
+]
+
+let search_engine_optimization = document.querySelector(".search_engine_optimization")
+search_engine_optimization_content.forEach(element=>{
+  search_engine_optimization.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let social_media_marketing_content = [
+  {name:"Instagram Marketing",url:""},
+  {name:"Social Media Management",url:""},
+  {name:"Facebook Ads",url:""},
+  {name:"Facebook Marketing",url:""},
+  {name:"TikTok Marketing",url:""},
+  {name:"PPC Advertising",url:""},
+  {name:"YouTube Marketing",url:""},
+  {name:"Generative AI (GenAI)",url:""},
+]
+
+let social_media_marketing = document.querySelector(".social_media_marketing")
+social_media_marketing_content.forEach(element=>{
+  social_media_marketing.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let branding_content = [
+  {name:"Business Branding",url:""},
+  {name:"YouTube Audience Growth",url:""},
+  {name:"YouTube Marketing",url:""},
+  {name:"Brand Management",url:""},
+  {name:"Personal Branding",url:""},
+  {name:"Marketing Strategy",url:""},
+  {name:"Career Development",url:""},
+  {name:"Product Management",url:""},
+  {name:"Reputation Management",url:""},
+]
+
+let branding = document.querySelector(".branding")
+branding_content.forEach(element=>{
+  branding.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let marketing_fundamentals_content = [
+  {name:"Marketing Strategy",url:""},
+  {name:"Copywriting",url:""},
+  {name:"Marketing Psychology",url:""},
+  {name:"Digital Nomad",url:""},
+  {name:"ChatGPT",url:""},
+  {name:"Digital Marketing",url:""},
+  {name:"Marketing Management",url:""},
+  {name:"Event Planning",url:""},
+  {name:"Coaching and Consulting Business",url:""},
+]
+
+let marketing_fundamentals = document.querySelector(".marketing_fundamentals")
+marketing_fundamentals_content.forEach(element=>{
+  marketing_fundamentals.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let marketing_analytics_and_automation_content = [
+  {name:"Google Analytics",url:""},
+  {name:"Marketing Analytics",url:""},
+  {name:"HubSpot",url:""},
+  {name:"Google Tag Manager",url:""},
+  {name:"Data Analysis",url:""},
+  {name:"Marketo",url:""},
+  {name:"Marketing Strategy",url:""},
+  {name:"Google Analytics Individual Qualification (IQ)",url:""},
+  {name:"Marketing Automation",url:""},
+]
+
+let marketing_analytics_and_automation = document.querySelector(".marketing_analytics_and_automation")
+marketing_analytics_and_automation_content.forEach(element=>{
+  marketing_analytics_and_automation.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let public_relations_content = [
+  {name:"Communication Skills",url:""},
+  {name:"Media Training",url:""},
+  {name:"Public Speaking",url:""},
+  {name:"Canva",url:""},
+  {name:"Podcasting",url:""},
+  {name:"Business Communication",url:""},
+  {name:"Storytelling",url:""},
+  {name:"Event Planning",url:""},
+]
+
+let public_relations = document.querySelector(".public_relations")
+public_relations_content.forEach(element=>{
+  public_relations.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let paid_advertising_content = [
+  {name:"Google Ads (Adwords)",url:""},
+  {name:"Facebook Ads",url:""},
+  {name:"PPC Advertising",url:""},
+  {name:"Google Ads Certification",url:""},
+  {name:"Advertising Strategy",url:""},
+  {name:"YouTube Marketing",url:""},
+  {name:"Retargeting",url:""},
+  {name:"Copywriting",url:""},
+  {name:"Programmatic Advertising",url:""},
+]
+
+
+let paid_advertising = document.querySelector(".paid_advertising")
+paid_advertising_content.forEach(element=>{
+  paid_advertising.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let video_and_mobile_marketing_content = [
+  {name:"YouTUbe Marketing",url:""},
+  {name:"Youtube Audience Growth",url:""},
+  {name:"Video Creation",url:""},
+  {name:"PowerPoint",url:""},
+  {name:"Generative AI (Gen AI)",url:""},
+  {name:"Video Marketing",url:""},
+  {name:"Video Editing",url:""},
+  {name:"App Editing",url:""},
+  {name:"App Store Optimization",url:""},
+]
+
+let video_and_mobile_marketing = document.querySelector(".video_and_mobile_marketing")
+video_and_mobile_marketing_content.forEach(element=>{
+  video_and_mobile_marketing.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let content_marketing_content = [
+  {name:"Content Writing",url:""},
+  {name:"Copywriting",url:""},
+  {name:"AI Content Generation",url:""},
+  {name:"Blogging",url:""},
+  {name:"Writing",url:""},
+  {name:"Content Creation",url:""},
+  {name:"ChatGPT",url:""},
+  {name:"Business Writing",url:""},
+]
+
+
+let content_marketing = document.querySelector(".content_marketing")
+content_marketing_content.forEach(element=>{
+  content_marketing.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let growth_hacking_content = [
+  {name:"Digital Marketing",url:""},
+  {name:"Passive Income",url:""},
+  {name:"Facebook Ads",url:""},
+  {name:"Marketing Strategy",url:""},
+  {name:"App Marketing",url:""},
+  {name:"ChatGPT",url:""},
+  {name:"YouTube Audience Growth",url:""},
+  {name:"Search Engine Optimization (SEO)",url:""},
+]
+
+let growth_hacking = document.querySelector(".growth_hacking")
+growth_hacking_content.forEach(element=>{
+  growth_hacking.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+
+let affiliate_marketing_content = [
+  {name:"ClickBank",url:""},
+  {name:"Google Ads (Adwords)",url:""},
+  {name:"Influencer Marketing",url:""},
+  {name:"Amazon Affiliate Marketing",url:""},
+  {name:"TikTok Shop",url:""},
+  {name:"Search Engine Optimization (SEO)",url:""},
+  {name:"Facebook Marketing",url:""},
+  {name:"CPA Marketing",url:""},
+]
+
+
+let affiliate_marketing = document.querySelector(".affiliate_marketing")
+affiliate_marketing_content.forEach(element=>{
+  affiliate_marketing.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let product_marketing_content = [
+  {name:"Amazon Kindle Direct Publishing (KDP)",url:""},
+  {name:"SaaS",url:""},
+  {name:"Self-Publishing",url:""},
+  {name:"Product Management",url:""},
+  {name:"Book Marketing",url:""},
+  {name:"Marketing Strategy",url:""},
+  {name:"Launch Funnel",url:""},
+  {name:"Selling on Amazon",url:""},
+]
+
+let product_marketing = document.querySelector(".product_marketing")
+product_marketing_content.forEach(element=>{
+  product_marketing.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+let other_marketing_content = [
+  {name:"Copywriting",url:""},
+  {name:"Conversion Rate Optimization (CRO)",url:""},
+  {name:"ChatGPT",url:""},
+  {name:"Digital Marketing",url:""},
+  {name:"Event Planning",url:""},
+  {name:"Marketing Strategy",url:""},
+  {name:"Google Tag Manager",url:""},
+  {name:"Marketing Psychology",url:""},
+  {name:"Sales Skills",url:""},
+]
+
+let other_marketing = document.querySelector(".other_marketing")
+other_marketing_content.forEach(element=>{
+  other_marketing.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      href="${element.url}"
+      class="dropdown-item pad pad_2"
+      >${element.name}</a
+    >
+  </li>
+
+`
+})
+
+//-------------------------------------------Marketing End------------------------------------------------------------------------------

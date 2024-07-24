@@ -19,7 +19,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.categories{
+.categories {
   cursor: pointer;
 }
 
@@ -102,14 +102,14 @@ nav {
 .show2:hover .menu3 {
   display: block;
 }
-li a{
-    text-wrap: wrap !important;
+li a {
+  text-wrap: wrap !important;
 }
-a:hover{
+a:hover {
   color: #5622c3 !important;
 }
 
-.carousel{
+.carousel {
   height: 400px;
   width: 1300px;
 }
@@ -118,63 +118,59 @@ a:hover{
   color:black !important;
 } */
 
-.carousel_box{
+.carousel_box {
   position: relative;
 }
 
-.overlay_1{
+.overlay_1 {
   height: 150px;
   width: 450px;
   background-color: white;
   position: absolute;
-  top:70px;
+  top: 70px;
   left: 70px;
 }
-.overlay_2{
+.overlay_2 {
   height: 250px;
   width: 450px;
   background-color: white;
   position: absolute;
-  top:70px;
+  top: 70px;
   left: 70px;
 }
-.overlay_1 h1{
+.overlay_1 h1 {
   font-family: "suisse";
   font-size: 32px;
   font-weight: bold;
   font-weight: 100;
 }
-.overlay_2 h1{
+.overlay_2 h1 {
   font-family: "suisse";
   font-size: 32px;
   font-weight: bold;
   font-weight: 100;
 }
-.overlay_1 p{
+.overlay_1 p {
   font-size: 16px;
   font-weight: 400;
 }
-
-.btn1,.btn2{
-  
-}
-.btn1{
+.btn1 {
   padding: 10px 20px;
   border: none;
-  margin-right:10px ;
+  margin-right: 10px;
   background-color: #2d2f31;
   color: white;
   font-weight: bold;
 }
-.btn1:hover{
+.btn1:hover {
   background-color: #2d2f31d4;
 }
-.btn2{
+.btn2 {
   padding: 8px 20px;
   background-color: white;
   border: 1px solid black;
   font-weight: bold;
 }
-.btn2:hover{
+.btn2:hover {
   background-color: #2d2f3120;
 }
