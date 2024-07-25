@@ -2679,15 +2679,15 @@ photography_tools_content.forEach(element => {
 
 
 let commercial_photography_content = [
-  {name:"Real Estate Photography"},
-  {name:"Photography Business"},
-  {name:"Architecture Photography"},
-  {name:"Wedding Photography"},
-  {name:"Photoshop Retouching"},
-  {name:"Product Photography"},
-  {name:"Food Photography"},
-  {name:"Photography"},
-  {name:"Drone and Aerial Photography"},
+  { name: "Real Estate Photography" },
+  { name: "Photography Business" },
+  { name: "Architecture Photography" },
+  { name: "Wedding Photography" },
+  { name: "Photoshop Retouching" },
+  { name: "Product Photography" },
+  { name: "Food Photography" },
+  { name: "Photography" },
+  { name: "Drone and Aerial Photography" },
 ]
 
 let commercial_photography = document.querySelector(".commercial_photography")
@@ -2704,15 +2704,15 @@ commercial_photography_content.forEach(element => {
 
 
 let video_design_content = [
-  {name:"Video Editing"},
-  {name:"Adobe Premiere Pro"},
-  {name:"Video Production"},
-  {name:"DaVinci Resolve"},
-  {name:"Adobe After Effects"},
-  {name:"CapCut"},
-  {name:"Filmmaking"},
-  {name:"Color Grading"},
-  {name:"Social Media Marketing"},
+  { name: "Video Editing" },
+  { name: "Adobe Premiere Pro" },
+  { name: "Video Production" },
+  { name: "DaVinci Resolve" },
+  { name: "Adobe After Effects" },
+  { name: "CapCut" },
+  { name: "Filmmaking" },
+  { name: "Color Grading" },
+  { name: "Social Media Marketing" },
 ]
 
 
@@ -2729,15 +2729,15 @@ video_design_content.forEach(element => {
 })
 
 let other_photography_and_video_content = [
-  {name:"Generative AI (GenAI)"},
-  {name:"YouTube Audience Growth"},
-  {name:"Photography"},
-  {name:"Video Editing"},
-  {name:"Video Creation"},
-  {name:"Drone and Aerial Photography"},
-  {name:"VFX Visual Effects"},
-  {name:"Filmmaking"},
-  {name:"GoPro"},
+  { name: "Generative AI (GenAI)" },
+  { name: "YouTube Audience Growth" },
+  { name: "Photography" },
+  { name: "Video Editing" },
+  { name: "Video Creation" },
+  { name: "Drone and Aerial Photography" },
+  { name: "VFX Visual Effects" },
+  { name: "Filmmaking" },
+  { name: "GoPro" },
 ]
 
 let other_photography_and_video = document.querySelector(".other_photography_and_video")
@@ -2761,14 +2761,14 @@ other_photography_and_video_content.forEach(element => {
 
 
 let fitness_content = [
-  {name:"Pilates"},
-  {name:"Teacher Training"},
-  {name:"Personal Trainer Business"},
-  {name:"Muscle Building"},
-  {name:"Home Workout"},
-  {name:"Strength Training"},
-  {name:"Somantic Movement Therapy"},
-  {name:"Boxing"},
+  { name: "Pilates" },
+  { name: "Teacher Training" },
+  { name: "Personal Trainer Business" },
+  { name: "Muscle Building" },
+  { name: "Home Workout" },
+  { name: "Strength Training" },
+  { name: "Somantic Movement Therapy" },
+  { name: "Boxing" },
 ]
 
 let fitness = document.querySelector(".fitness")
@@ -2784,15 +2784,15 @@ fitness_content.forEach(element => {
 })
 
 let general_health_content = [
-  {name:"Massage"},
-  {name:"Herbalism"},
-  {name:"Facial Massage"},
-  {name:"Reflexology"},
-  {name:"Holistic Medicine"},
-  {name:"Health"},
-  {name:"Breathing Techniques"},
-  {name:"Aromatherapy"},
-  {name:"Nature Medicine"},
+  { name: "Massage" },
+  { name: "Herbalism" },
+  { name: "Facial Massage" },
+  { name: "Reflexology" },
+  { name: "Holistic Medicine" },
+  { name: "Health" },
+  { name: "Breathing Techniques" },
+  { name: "Aromatherapy" },
+  { name: "Nature Medicine" },
 ]
 
 let general_health = document.querySelector(".general_health")
@@ -2808,15 +2808,15 @@ general_health_content.forEach(element => {
 })
 
 let sports_content = [
-  {name:"Soccer"},
-  {name:"Sport Psychology"},
-  {name:"Swimming"},
-  {name:"Golf"},
-  {name:"Tennis"},
-  {name:"Sports Coaching"},
-  {name:"Sports Massage"},
-  {name:"Sports Management"},
-  {name:"Running"},
+  { name: "Soccer" },
+  { name: "Sport Psychology" },
+  { name: "Swimming" },
+  { name: "Golf" },
+  { name: "Tennis" },
+  { name: "Sports Coaching" },
+  { name: "Sports Massage" },
+  { name: "Sports Management" },
+  { name: "Running" },
 ]
 
 let sports = document.querySelector(".sports")
@@ -2833,15 +2833,15 @@ sports_content.forEach(element => {
 
 
 let nutrition_and_diet_content = [
- {name:"Nutrition"},
- {name:"Dieting"},
- {name:"Weight Loss"},
- {name:"Health Coach Training"},
- {name:"Sports Nutrition"},
- {name:"Gut Health"},
- {name:"Hazard Analysis & Critical Control Points (HACCP)"},
- {name:"Ketogenic Diet"},
- {name:"Vegan Cooking"},
+  { name: "Nutrition" },
+  { name: "Dieting" },
+  { name: "Weight Loss" },
+  { name: "Health Coach Training" },
+  { name: "Sports Nutrition" },
+  { name: "Gut Health" },
+  { name: "Hazard Analysis & Critical Control Points (HACCP)" },
+  { name: "Ketogenic Diet" },
+  { name: "Vegan Cooking" },
 ]
 
 let nutrition_and_diet = document.querySelector(".nutrition_and_diet")
@@ -2857,14 +2857,14 @@ nutrition_and_diet_content.forEach(element => {
 })
 
 let yoga_content = [
-  {name:"Pranayama"},
-  {name:"Yoga for Kids"},
-  {name:"Breathing Techniques"},
-  {name:"Chair Yoga"},
-  {name:"Prenatal Yoga"},
-  {name:"Ayurveda"},
-  {name:"Face Yoga"},
-  {name:"Kundalini"},
+  { name: "Pranayama" },
+  { name: "Yoga for Kids" },
+  { name: "Breathing Techniques" },
+  { name: "Chair Yoga" },
+  { name: "Prenatal Yoga" },
+  { name: "Ayurveda" },
+  { name: "Face Yoga" },
+  { name: "Kundalini" },
 ]
 
 let yoga = document.querySelector(".yoga")
@@ -2880,14 +2880,14 @@ yoga_content.forEach(element => {
 })
 
 let mental_health_content = [
-  {name:"Cognitive Behavioral Therapy (CBT)"},
-  {name:"Psychology"},
-  {name:"Art Therapy"},
-  {name:"Acceptance and Commitment Therapy (ACT)"},
-  {name:"Dialectical Behavior Therapy (DBT)"},
-  {name:"Psychology"},
-  {name:"Trauma-Informed Care"},
-  {name:"Counseling"},
+  { name: "Cognitive Behavioral Therapy (CBT)" },
+  { name: "Psychology" },
+  { name: "Art Therapy" },
+  { name: "Acceptance and Commitment Therapy (ACT)" },
+  { name: "Dialectical Behavior Therapy (DBT)" },
+  { name: "Psychology" },
+  { name: "Trauma-Informed Care" },
+  { name: "Counseling" },
 ]
 
 let mental_health = document.querySelector(".mental_health")
@@ -2902,16 +2902,16 @@ mental_health_content.forEach(element => {
 `
 })
 
-let martial_arts_and_self_defense_content =[
-  {name:"Martial Arts"},
-  {name:"Self-Defense"},
-  {name:"Krav Maga"},
-  {name:"Tai Chi"},
-  {name:"Wing Chun"},
-  {name:"Brazilian Jiu-Jitsu"},
-  {name:"Boxing"},
-  {name:"Close Combat"},
-  {name:"KungFu"},
+let martial_arts_and_self_defense_content = [
+  { name: "Martial Arts" },
+  { name: "Self-Defense" },
+  { name: "Krav Maga" },
+  { name: "Tai Chi" },
+  { name: "Wing Chun" },
+  { name: "Brazilian Jiu-Jitsu" },
+  { name: "Boxing" },
+  { name: "Close Combat" },
+  { name: "KungFu" },
 ]
 
 let martial_arts_and_self_defense = document.querySelector(".martial_arts_and_self_defense")
@@ -2927,15 +2927,15 @@ martial_arts_and_self_defense_content.forEach(element => {
 })
 
 let safety_and_first_aid_content = [
-  {name:"First Aid"},
-  {name:"Workplace Health and Safety"},
-  {name:"OSHA"},
-  {name:"Survival Skills"},
-  {name:"Herbalism"},
-  {name:"Public Health"},
-  {name:"Fire Safety"},
-  {name:"Personal Emergency Preparedness"},
-  {name:"Advanced Trauma Life Support (ATLS)"},
+  { name: "First Aid" },
+  { name: "Workplace Health and Safety" },
+  { name: "OSHA" },
+  { name: "Survival Skills" },
+  { name: "Herbalism" },
+  { name: "Public Health" },
+  { name: "Fire Safety" },
+  { name: "Personal Emergency Preparedness" },
+  { name: "Advanced Trauma Life Support (ATLS)" },
 ]
 
 let safety_and_first_aid = document.querySelector(".safety_and_first_aid")
@@ -2951,14 +2951,14 @@ safety_and_first_aid_content.forEach(element => {
 })
 
 let dance_content = [
-  {name:"Belly Dancing"},
-  {name:"Salsa Dancing"},
-  {name:"Bachata"},
-  {name:"Hip Hop Dancing"},
-  {name:"Poi Spinning"},
-  {name:"Ballet"},
-  {name:"Tango Dance"},
-  {name:"Street Dance"},
+  { name: "Belly Dancing" },
+  { name: "Salsa Dancing" },
+  { name: "Bachata" },
+  { name: "Hip Hop Dancing" },
+  { name: "Poi Spinning" },
+  { name: "Ballet" },
+  { name: "Tango Dance" },
+  { name: "Street Dance" },
 ]
 
 let dance = document.querySelector(".dance")
@@ -2975,14 +2975,14 @@ dance_content.forEach(element => {
 
 
 let meditation_content = [
-  {name:"Sound Therapy"},
-  {name:"Mindfulness"},
-  {name:"Reiki"},
-  {name:"Somantic Movement Therapy"},
-  {name:"Spiritual Healing"},
-  {name:"Qigong"},
-  {name:"Pain Relief"},
-  {name:"Yoga"},
+  { name: "Sound Therapy" },
+  { name: "Mindfulness" },
+  { name: "Reiki" },
+  { name: "Somantic Movement Therapy" },
+  { name: "Spiritual Healing" },
+  { name: "Qigong" },
+  { name: "Pain Relief" },
+  { name: "Yoga" },
 ]
 
 let meditation = document.querySelector(".meditation")
@@ -2999,15 +2999,15 @@ meditation_content.forEach(element => {
 
 
 let other_health_and_fitness_content = [
-  {name:"Massage"},
-  {name:"Facial Massage"},
-  {name:"Sports Massage"},
-  {name:"Medical Coding"},
-  {name:"Qigong"},
-  {name:"Medical Terminology"},
-  {name:"Spiritual Healing"},
-  {name:"Kinesiology Taping"},
-  {name:"EFT (Emotional Freedom Techniques)"},
+  { name: "Massage" },
+  { name: "Facial Massage" },
+  { name: "Sports Massage" },
+  { name: "Medical Coding" },
+  { name: "Qigong" },
+  { name: "Medical Terminology" },
+  { name: "Spiritual Healing" },
+  { name: "Kinesiology Taping" },
+  { name: "EFT (Emotional Freedom Techniques)" },
 ]
 
 let other_health_and_fitness = document.querySelector(".other_health_and_fitness")
@@ -3028,15 +3028,15 @@ other_health_and_fitness_content.forEach(element => {
 //---------------------------------------------Music-----------------------------------------------------------------------------------
 
 let instruments_content = [
-  {name:"Guitar"},
-  {name:"Piano"},
-  {name:"Keyboard Instrument"},
-  {name:"Bass Guitar"},
-  {name:"Drums"},
-  {name:"Violin"},
-  {name:"Ukulele"},
-  {name:"Piano Chords"},
-  {name:"Harmonica"},
+  { name: "Guitar" },
+  { name: "Piano" },
+  { name: "Keyboard Instrument" },
+  { name: "Bass Guitar" },
+  { name: "Drums" },
+  { name: "Violin" },
+  { name: "Ukulele" },
+  { name: "Piano Chords" },
+  { name: "Harmonica" },
 ]
 
 let instruments = document.querySelector(".instruments")
@@ -3052,14 +3052,14 @@ instruments_content.forEach(element => {
 })
 
 let music_production_content = [
-  {name:"Abletom Live"},
-  {name:"Logic Pro"},
-  {name:"FL Studio"},
-  {name:"Music Mixing"},
-  {name:"Audio Engineering"},
-  {name:"Music Composition"},
-  {name:"Game Music"},
-  {name:"Sound Design"},
+  { name: "Abletom Live" },
+  { name: "Logic Pro" },
+  { name: "FL Studio" },
+  { name: "Music Mixing" },
+  { name: "Audio Engineering" },
+  { name: "Music Composition" },
+  { name: "Game Music" },
+  { name: "Sound Design" },
 ]
 
 let music_production = document.querySelector(".music_production")
@@ -3075,15 +3075,15 @@ music_production_content.forEach(element => {
 })
 
 let music_fundamentals_content = [
-  {name:"Music Theory"},
-  {name:"Music Composition"},
-  {name:"Songwriting"},
-  {name:"Electronic Music"},
-  {name:"Reading Music"},
-  {name:"Ear Training"},
-  {name:"Piano"},
-  {name:"Harmony (music)"},
-  {name:"Guitar Chords"},
+  { name: "Music Theory" },
+  { name: "Music Composition" },
+  { name: "Songwriting" },
+  { name: "Electronic Music" },
+  { name: "Reading Music" },
+  { name: "Ear Training" },
+  { name: "Piano" },
+  { name: "Harmony (music)" },
+  { name: "Guitar Chords" },
 ]
 
 let music_fundamentals = document.querySelector(".music_fundamentals")
@@ -3099,15 +3099,15 @@ music_fundamentals_content.forEach(element => {
 })
 
 let vocal_content = [
-  {name:"Singing"},
-  {name:"Voice Training"},
-  {name:"Voice Acting"},
-  {name:"Raga Music"},
-  {name:"Meditation"},
-  {name:"Yoga"},
-  {name:"Confidence"},
-  {name:"Rapping"},
-  {name:"Voice-Over"},
+  { name: "Singing" },
+  { name: "Voice Training" },
+  { name: "Voice Acting" },
+  { name: "Raga Music" },
+  { name: "Meditation" },
+  { name: "Yoga" },
+  { name: "Confidence" },
+  { name: "Rapping" },
+  { name: "Voice-Over" },
 ]
 
 let vocal = document.querySelector(".vocal")
@@ -3123,15 +3123,15 @@ vocal_content.forEach(element => {
 })
 
 let music_techniques_content = [
-  {name:"DJ"},
-  {name:"Music Composition"},
-  {name:"Reading Music"},
-  {name:"Music Theory"},
-  {name:"Songwriting"},
-  {name:"Piano"},
-  {name:"Music Improvisation"},
-  {name:"Guitar"},
-  {name:"Piano Chords"},
+  { name: "DJ" },
+  { name: "Music Composition" },
+  { name: "Reading Music" },
+  { name: "Music Theory" },
+  { name: "Songwriting" },
+  { name: "Piano" },
+  { name: "Music Improvisation" },
+  { name: "Guitar" },
+  { name: "Piano Chords" },
 ]
 
 let music_techniques = document.querySelector(".music_techniques")
@@ -3147,15 +3147,15 @@ music_techniques_content.forEach(element => {
 })
 
 let music_software_content = [
-  {name:"FL Studio"},
-  {name:"Ableton Live"},
-  {name:"Logic Pro"},
-  {name:"Music Production"},
-  {name:"GarageBand"},
-  {name:"DJ"},
-  {name:"Audacity Software"},
-  {name:"Music Mixing"},
-  {name:"Sound Design"},
+  { name: "FL Studio" },
+  { name: "Ableton Live" },
+  { name: "Logic Pro" },
+  { name: "Music Production" },
+  { name: "GarageBand" },
+  { name: "DJ" },
+  { name: "Audacity Software" },
+  { name: "Music Mixing" },
+  { name: "Sound Design" },
 ]
 
 let music_software = document.querySelector(".music_software")
@@ -3171,15 +3171,15 @@ music_software_content.forEach(element => {
 })
 
 let other_music_content = [
-  {name:"DJ"},
-  {name:"Songwriting"},
-  {name:"Music Business"},
-  {name:"Sound Therapy"},
-  {name:"Music Marketing"},
-  {name:"Rapping"},
-  {name:"Talent Agent"},
-  {name:"Luthiery"},
-  {name:"Djembe"},
+  { name: "DJ" },
+  { name: "Songwriting" },
+  { name: "Music Business" },
+  { name: "Sound Therapy" },
+  { name: "Music Marketing" },
+  { name: "Rapping" },
+  { name: "Talent Agent" },
+  { name: "Luthiery" },
+  { name: "Djembe" },
 ]
 
 let other_music = document.querySelector(".other_music")
@@ -3195,13 +3195,253 @@ other_music_content.forEach(element => {
 })
 
 
-
-
-
-
-
-
-
-
-
 //---------------------------------------------Music End-----------------------------------------------------------------------------------
+
+
+//--------------------------------------------Teaching and Academics------------------------------------------------------------------
+
+
+let engineering_content = [
+  { name: "Electrical Engineering" },
+  { name: "Electricity" },
+  { name: "Mechanical Engineering" },
+  { name: "Solar Energy" },
+  { name: "Civil Engineering" },
+  { name: "Electronics" },
+  { name: "Automotive Engineering" },
+  { name: "Spring Framework" },
+  { name: "Power Engineering" },
+]
+
+let engineering = document.querySelector(".engineering")
+engineering_content.forEach(element => {
+  engineering.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let humanities_content = [
+  { name: "Philosophy" },
+  { name: "Art History" },
+  { name: "Statistics" },
+  { name: "Critical Thinking" },
+  { name: "Christianity" },
+  { name: "Creative Writing" },
+  { name: "Cognitive Behavioral Therapy (CBT)" },
+  { name: "The Bible" },
+  { name: "Autism" },
+]
+
+let humanities = document.querySelector(".humanities")
+humanities_content.forEach(element => {
+  humanities.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+
+let maths_content = [
+  { name: "Calculus" },
+  { name: "Statistics" },
+  { name: "Algebra" },
+  { name: "Linear Algebra" },
+  { name: "Probability" },
+  { name: "Trignonometry" },
+  { name: "Discrete Math" },
+  { name: "Pre-Calculus" },
+]
+
+let maths = document.querySelector(".maths")
+maths_content.forEach(element => {
+  maths.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let science_content = [
+  { name: "Physics" },
+  { name: "Orthodontics" },
+  { name: "Chemistry" },
+  { name: "Anatomy" },
+  { name: "Biology" },
+  { name: "Organic Chemistry" },
+  { name: "Quantum Mechanics (physics)" },
+  { name: "Medical Coding" },
+  { name: "Certified Professional Coder (CPC)" },
+]
+
+let science = document.querySelector(".science")
+science_content.forEach(element => {
+  science.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let online_education_content = [
+  { name: "Online Course Creation" },
+  { name: "Instructional Design" },
+  { name: "Teaching Online" },
+  { name: "Project Management" },
+  { name: "Canva" },
+  { name: "Moodle" },
+  { name: "Coding For Kids" },
+  { name: "ChatGPT" },
+  { name: "Passive Income" },
+]
+
+let online_education = document.querySelector(".online_education")
+online_education_content.forEach(element => {
+  online_education.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let social_science_content = [
+  { name: "Psychology" },
+  { name: "Counseling" },
+  { name: "Macroeconomics" },
+  { name: "Economics" },
+  { name: "Cognitive Behavioral Therapy (CBT)" },
+  { name: "Criminology" },
+  { name: "Intelligence Analysis (security)" },
+  { name: "Criminal Psychology" },
+  { name: "Law" },
+]
+
+let social_science = document.querySelector(".social_science")
+social_science_content.forEach(element => {
+  social_science.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let language_learning_content = [
+  { name: "English Language" },
+  { name: "German Language" },
+  { name: "Spanish Language" },
+  { name: "English Grammar" },
+  { name: "French Language" },
+  { name: "Japanese Language" },
+  { name: "English Conversation" },
+  { name: "English Vocabulary" },
+  { name: "Italian Language" },
+]
+
+let language_learning = document.querySelector(".language_learning")
+language_learning_content.forEach(element => {
+  language_learning.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let teacher_training_content = [
+  { name: "Train the Trainer" },
+  { name: "Early Childhood Education" },
+  { name: "English Language" },
+  { name: "Classroom Management" },
+  { name: "Instructional Design" },
+  { name: "Workplace Health and Safety" },
+  { name: "Health Coach Training" },
+  { name: "Voice-Over" },
+]
+
+let teacher_training = document.querySelector(".teacher_training")
+teacher_training_content.forEach(element => {
+  teacher_training.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+
+let test_prep_content = [
+  { name: "IELTS" },
+  { name: "TOEFL" },
+  { name: "PMI Project Management Professional (PMP)" },
+  { name: "English Language" },
+  { name: "PMI PMBOK" },
+  { name: "Statistics" },
+  { name: "CCAT" },
+  { name: "Test Taking Skills" },
+  { name: "Canadian English Language Proficiency Index Program (CELPIP)" },
+]
+
+let test_prep = document.querySelector(".test_prep")
+test_prep_content.forEach(element => {
+  test_prep.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let other_teaching_and_academics_content = [
+  { name: "Research Methods" },
+  { name: "Medical Coding" },
+  { name: "Proofreading" },
+  { name: "Medical Biling" },
+  { name: "Sewing" },
+  { name: "Clinical Research" },
+  { name: "ChatGPT" },
+  { name: "Academic Writing" },
+  { name: "Research Paper Writing" },
+]
+ 
+let other_teaching_and_academics = document.querySelector(".other_teaching_and_academics")
+other_teaching_and_academics_content.forEach(element => {
+  other_teaching_and_academics.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+
+
+
+//--------------------------------------------Teaching and Academics end------------------------------------------------------------------
