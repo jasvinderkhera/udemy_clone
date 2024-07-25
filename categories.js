@@ -3022,4 +3022,186 @@ other_health_and_fitness_content.forEach(element => {
 `
 })
 
-//------------------------------------------Health and Fitness End----------------------------------------------------------------------------------
+//------------------------------------------Health and Fitness End----------------------------------------------------------------------
+
+
+//---------------------------------------------Music-----------------------------------------------------------------------------------
+
+let instruments_content = [
+  {name:"Guitar"},
+  {name:"Piano"},
+  {name:"Keyboard Instrument"},
+  {name:"Bass Guitar"},
+  {name:"Drums"},
+  {name:"Violin"},
+  {name:"Ukulele"},
+  {name:"Piano Chords"},
+  {name:"Harmonica"},
+]
+
+let instruments = document.querySelector(".instruments")
+instruments_content.forEach(element => {
+  instruments.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let music_production_content = [
+  {name:"Abletom Live"},
+  {name:"Logic Pro"},
+  {name:"FL Studio"},
+  {name:"Music Mixing"},
+  {name:"Audio Engineering"},
+  {name:"Music Composition"},
+  {name:"Game Music"},
+  {name:"Sound Design"},
+]
+
+let music_production = document.querySelector(".music_production")
+music_production_content.forEach(element => {
+  music_production.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let music_fundamentals_content = [
+  {name:"Music Theory"},
+  {name:"Music Composition"},
+  {name:"Songwriting"},
+  {name:"Electronic Music"},
+  {name:"Reading Music"},
+  {name:"Ear Training"},
+  {name:"Piano"},
+  {name:"Harmony (music)"},
+  {name:"Guitar Chords"},
+]
+
+let music_fundamentals = document.querySelector(".music_fundamentals")
+music_fundamentals_content.forEach(element => {
+  music_fundamentals.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let vocal_content = [
+  {name:"Singing"},
+  {name:"Voice Training"},
+  {name:"Voice Acting"},
+  {name:"Raga Music"},
+  {name:"Meditation"},
+  {name:"Yoga"},
+  {name:"Confidence"},
+  {name:"Rapping"},
+  {name:"Voice-Over"},
+]
+
+let vocal = document.querySelector(".vocal")
+vocal_content.forEach(element => {
+  vocal.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let music_techniques_content = [
+  {name:"DJ"},
+  {name:"Music Composition"},
+  {name:"Reading Music"},
+  {name:"Music Theory"},
+  {name:"Songwriting"},
+  {name:"Piano"},
+  {name:"Music Improvisation"},
+  {name:"Guitar"},
+  {name:"Piano Chords"},
+]
+
+let music_techniques = document.querySelector(".music_techniques")
+music_techniques_content.forEach(element => {
+  music_techniques.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let music_software_content = [
+  {name:"FL Studio"},
+  {name:"Ableton Live"},
+  {name:"Logic Pro"},
+  {name:"Music Production"},
+  {name:"GarageBand"},
+  {name:"DJ"},
+  {name:"Audacity Software"},
+  {name:"Music Mixing"},
+  {name:"Sound Design"},
+]
+
+let music_software = document.querySelector(".music_software")
+music_software_content.forEach(element => {
+  music_software.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let other_music_content = [
+  {name:"DJ"},
+  {name:"Songwriting"},
+  {name:"Music Business"},
+  {name:"Sound Therapy"},
+  {name:"Music Marketing"},
+  {name:"Rapping"},
+  {name:"Talent Agent"},
+  {name:"Luthiery"},
+  {name:"Djembe"},
+]
+
+let other_music = document.querySelector(".other_music")
+other_music_content.forEach(element => {
+  other_music.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+
+
+
+
+
+
+
+
+
+
+//---------------------------------------------Music End-----------------------------------------------------------------------------------
