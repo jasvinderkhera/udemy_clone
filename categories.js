@@ -2754,3 +2754,272 @@ other_photography_and_video_content.forEach(element => {
 
 
 //------------------------------------------Photography and Video End----------------------------------------------------------------------------------
+
+
+
+//------------------------------------------Health and Fitness----------------------------------------------------------------------------------
+
+
+let fitness_content = [
+  {name:"Pilates"},
+  {name:"Teacher Training"},
+  {name:"Personal Trainer Business"},
+  {name:"Muscle Building"},
+  {name:"Home Workout"},
+  {name:"Strength Training"},
+  {name:"Somantic Movement Therapy"},
+  {name:"Boxing"},
+]
+
+let fitness = document.querySelector(".fitness")
+fitness_content.forEach(element => {
+  fitness.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let general_health_content = [
+  {name:"Massage"},
+  {name:"Herbalism"},
+  {name:"Facial Massage"},
+  {name:"Reflexology"},
+  {name:"Holistic Medicine"},
+  {name:"Health"},
+  {name:"Breathing Techniques"},
+  {name:"Aromatherapy"},
+  {name:"Nature Medicine"},
+]
+
+let general_health = document.querySelector(".general_health")
+general_health_content.forEach(element => {
+  general_health.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let sports_content = [
+  {name:"Soccer"},
+  {name:"Sport Psychology"},
+  {name:"Swimming"},
+  {name:"Golf"},
+  {name:"Tennis"},
+  {name:"Sports Coaching"},
+  {name:"Sports Massage"},
+  {name:"Sports Management"},
+  {name:"Running"},
+]
+
+let sports = document.querySelector(".sports")
+sports_content.forEach(element => {
+  sports.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+
+let nutrition_and_diet_content = [
+ {name:"Nutrition"},
+ {name:"Dieting"},
+ {name:"Weight Loss"},
+ {name:"Health Coach Training"},
+ {name:"Sports Nutrition"},
+ {name:"Gut Health"},
+ {name:"Hazard Analysis & Critical Control Points (HACCP)"},
+ {name:"Ketogenic Diet"},
+ {name:"Vegan Cooking"},
+]
+
+let nutrition_and_diet = document.querySelector(".nutrition_and_diet")
+nutrition_and_diet_content.forEach(element => {
+  nutrition_and_diet.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let yoga_content = [
+  {name:"Pranayama"},
+  {name:"Yoga for Kids"},
+  {name:"Breathing Techniques"},
+  {name:"Chair Yoga"},
+  {name:"Prenatal Yoga"},
+  {name:"Ayurveda"},
+  {name:"Face Yoga"},
+  {name:"Kundalini"},
+]
+
+let yoga = document.querySelector(".yoga")
+yoga_content.forEach(element => {
+  yoga.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let mental_health_content = [
+  {name:"Cognitive Behavioral Therapy (CBT)"},
+  {name:"Psychology"},
+  {name:"Art Therapy"},
+  {name:"Acceptance and Commitment Therapy (ACT)"},
+  {name:"Dialectical Behavior Therapy (DBT)"},
+  {name:"Psychology"},
+  {name:"Trauma-Informed Care"},
+  {name:"Counseling"},
+]
+
+let mental_health = document.querySelector(".mental_health")
+mental_health_content.forEach(element => {
+  mental_health.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let martial_arts_and_self_defense_content =[
+  {name:"Martial Arts"},
+  {name:"Self-Defense"},
+  {name:"Krav Maga"},
+  {name:"Tai Chi"},
+  {name:"Wing Chun"},
+  {name:"Brazilian Jiu-Jitsu"},
+  {name:"Boxing"},
+  {name:"Close Combat"},
+  {name:"KungFu"},
+]
+
+let martial_arts_and_self_defense = document.querySelector(".martial_arts_and_self_defense")
+martial_arts_and_self_defense_content.forEach(element => {
+  martial_arts_and_self_defense.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let safety_and_first_aid_content = [
+  {name:"First Aid"},
+  {name:"Workplace Health and Safety"},
+  {name:"OSHA"},
+  {name:"Survival Skills"},
+  {name:"Herbalism"},
+  {name:"Public Health"},
+  {name:"Fire Safety"},
+  {name:"Personal Emergency Preparedness"},
+  {name:"Advanced Trauma Life Support (ATLS)"},
+]
+
+let safety_and_first_aid = document.querySelector(".safety_and_first_aid")
+safety_and_first_aid_content.forEach(element => {
+  safety_and_first_aid.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+let dance_content = [
+  {name:"Belly Dancing"},
+  {name:"Salsa Dancing"},
+  {name:"Bachata"},
+  {name:"Hip Hop Dancing"},
+  {name:"Poi Spinning"},
+  {name:"Ballet"},
+  {name:"Tango Dance"},
+  {name:"Street Dance"},
+]
+
+let dance = document.querySelector(".dance")
+dance_content.forEach(element => {
+  dance.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+
+let meditation_content = [
+  {name:"Sound Therapy"},
+  {name:"Mindfulness"},
+  {name:"Reiki"},
+  {name:"Somantic Movement Therapy"},
+  {name:"Spiritual Healing"},
+  {name:"Qigong"},
+  {name:"Pain Relief"},
+  {name:"Yoga"},
+]
+
+let meditation = document.querySelector(".meditation")
+meditation_content.forEach(element => {
+  meditation.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+
+let other_health_and_fitness_content = [
+  {name:"Massage"},
+  {name:"Facial Massage"},
+  {name:"Sports Massage"},
+  {name:"Medical Coding"},
+  {name:"Qigong"},
+  {name:"Medical Terminology"},
+  {name:"Spiritual Healing"},
+  {name:"Kinesiology Taping"},
+  {name:"EFT (Emotional Freedom Techniques)"},
+]
+
+let other_health_and_fitness = document.querySelector(".other_health_and_fitness")
+other_health_and_fitness_content.forEach(element => {
+  other_health_and_fitness.innerHTML += `
+  <li class="px-3 py-1">
+    <a
+      class="dropdown-item pad pad_2"
+      >${element.name}</a>
+  </li>
+
+`
+})
+
+//------------------------------------------Health and Fitness End----------------------------------------------------------------------------------
