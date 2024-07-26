@@ -20,6 +20,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+.main_container{
+max-width: 1340px !important;
+margin: auto;
+}
+
 .categories {
   cursor: pointer;
 }
@@ -134,12 +140,14 @@ font-size: 50px !important;
   right: 70px;
 }
 
-.carousel_box {
+.carousel_box1 {
+  height: 400px;
+  width: 1340px;
   position: relative;
 }
 
 .overlay_1 {
-  height: 150px;
+  height: 200px;
   width: 450px;
   background-color: white;
   position: absolute;
@@ -157,8 +165,7 @@ font-size: 50px !important;
 .overlay_1 h1 {
   font-family: "suisse";
   font-size: 32px;
-  font-weight: bold;
-  font-weight: 100;
+  font-weight: bolder;
 }
 .overlay_2 h1 {
   font-family: "suisse";
@@ -199,4 +206,32 @@ font-size: 50px !important;
   color:rgb(106, 111, 115);
   font-size: 19px;
   font-weight: 500;
+}
+
+
+
+
+.nav-link.active{
+  /* background-color: rgb(33,37,41) !important; */
+  /* text-decoration: underline; */
+  color: black !important;
+  background-color: white !important;
+  border-bottom:1px solid black;
+  border-radius: 0;
+}
+.nav-tabs{
+  border: none !important;
+}
+.nav-tabs .nav-link{
+  border: none !important;
+}
+.nav-link{
+  color: gray !important;
+  font-weight: 700;
+}
+.nav-link:hover{
+  color: black !important;
+}
+hr{
+  margin-top: 0;
 }
