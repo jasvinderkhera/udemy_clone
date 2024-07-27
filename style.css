@@ -17,6 +17,7 @@ nav {
   box-shadow: 2px 2px 4px 0px #88888851;
   padding: 8px 25px !important;
   display: flex;
+  gap:10px;
   justify-content: space-between;
   align-items: center;
 }
@@ -106,7 +107,7 @@ margin: auto;
 li a {
   text-wrap: wrap !important;
 }
-a:hover {
+.nav-link:hover {
   color: #5622c3 !important;
 }
 
@@ -140,14 +141,14 @@ font-size: 50px !important;
   right: 70px;
 }
 
-.carousel_box1 {
+.carousel_box {
   height: 400px;
   width: 1340px;
   position: relative;
 }
 
 .overlay_1 {
-  height: 200px;
+  height: 150px;
   width: 450px;
   background-color: white;
   position: absolute;
@@ -211,7 +212,7 @@ font-size: 50px !important;
 
 
 
-.nav-link.active{
+.nav-item .nav-link.active{
   /* background-color: rgb(33,37,41) !important; */
   /* text-decoration: underline; */
   color: black !important;
@@ -225,11 +226,11 @@ font-size: 50px !important;
 .nav-tabs .nav-link{
   border: none !important;
 }
-.nav-link{
+.nav-item .nav-link{
   color: gray !important;
-  font-weight: 700;
+  font-weight: 900;
 }
-.nav-link:hover{
+.categ:hover{
   color: black !important;
 }
 hr{
