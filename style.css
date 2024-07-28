@@ -242,7 +242,7 @@ hr{
 .swiper-container {
   overflow: hidden;
   position: relative;
-  width: 1340px;
+  width: 1340px !important;
   height: 400px;
   padding: 0;
 }
@@ -266,7 +266,7 @@ hr{
 }
 
 .swiper-wrapper{
-  width: 1340px;
+  width: 1340px !important;
   height: 400px;
 }
 .swiper-slide{
@@ -276,4 +276,90 @@ hr{
 .swiper-slide img{
   height: 100%;
   width: 100%;
+}
+
+
+
+
+/* Categories */
+.cat_swiper-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1340px;
+  height: 400px;
+  padding: 0 25px;
+  margin: auto;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #2d2f31;
+  padding: 12px 15px;
+  border-radius: 50%;
+  color: white;
+}
+.wrapped {
+  height: 400px !important;
+  width: 310px !important;
+}
+.con.swiper-slide {
+  /* width: calc((100% - 90px) / 4); */
+  height: 330px;
+  border-radius: 10px;
+}
+.con.swiper-slide.swiper-slide-prev,
+.con.swiper-slide.swiper-slide-next,
+.con.swiper-slide.swiper-slide-active,
+.con.swiper-slide {
+  margin-right: 30px !important; 
+  width:289px !important;/* Adjust to fit four slides with space between */
+}
+.img_box {
+  height: 160px;
+  width: 100%;
+}
+.img_box img {
+  height: 100%;
+  width: 100%;
+}
+.swiper_overlay_1 {
+  width: 100%;
+  height: 330px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.swiper_overlay_1 h6 {
+  font-family: "suisse";
+  font-weight: bolder;
+}
+.swiper_overlay_1 p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.fa-star,.fa-star-half-stroke{
+  font-size: 12px;
+  color:#b4690e;
+}
+.rating_count{
+  font-size: 12px;
+}
+
+
+.sub_categories{
+  margin: 30px 0;
+}
+.badge{
+  display: inline-block;
+  height: 60px;
+  min-width: 100px;
+  padding-top: 23px;
+  border-radius: 35px;
+  font-size: 15px;
+  margin: 0 10px;
+}
+.badge:hover{
+  background-color: #2f2f2f;
 }
