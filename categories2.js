@@ -55,9 +55,57 @@ let web_development_data = [
        {thumbnail:"https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg",
         title:"The Complete 2023 PHP Full Stack Web Developer Bootcamp",
         tutor:"Srini Vanmala",
-        rating:'4.7  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>',
+        rating:'<span class="rating_size">4.7</span>  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>',
         rating_count:"(5,350)",
         price:"₹6,500",
+         category:"web development"
+       },
+       {thumbnail:"https://img-c.udemycdn.com/course/240x135/881980_fc8f.jpg",
+        title:"Pre-Programming: Everything you need to know before you code",
+        tutor:"Evan Kimbrell",
+        rating:'<span class="rating_size">4.6</span>  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>',
+        rating_count:"(12,235)",
+        price:"₹4,099",
+         category:"web development"
+       },
+       {thumbnail:"https://img-c.udemycdn.com/course/240x135/19332_6b49_15.jpg",
+        title:"The Complete 2020 Fullstack Web Developer Course",
+        tutor:"Kalob Taulien",
+        rating:'<span class="rating_size">4.5</span>  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>',
+        rating_count:"(7,431)",
+        price:"₹4,099",
+         category:"web development"
+       },
+       {thumbnail:"https://img-c.udemycdn.com/course/240x135/4548492_0942.jpg",
+        title:"CSS, Bootstrap ,JavaScript, Web Development Course",
+        tutor:"PROPER DOT INSTITUTE",
+        rating:'<span class="rating_size">4.3</span>  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>',
+        rating_count:"(1,113)",
+        price:"₹2,499",
+         category:"web development"
+       },
+       {thumbnail:"https://img-c.udemycdn.com/course/240x135/1218586_9f86.jpg",
+        title:"The Advanced Web Developer Bootcamp",
+        tutor:"Colt Steele, Elie Schoppik, Tim Garcia,...",
+        rating:'<span class="rating_size">4.6</span>  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>',
+        rating_count:"(9,332)",
+        price:"₹3,499",
+         category:"web development"
+       },
+       {thumbnail:"https://img-c.udemycdn.com/course/240x135/446134_383c_3.jpg",
+        title:"Ultimate Web Designer & Web Developer Course",
+        tutor:"Brad Hussey",
+        rating:'<span class="rating_size">4.7</span>  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>',
+        rating_count:"(14,488)",
+        price:"₹4,099",
+         category:"web development"
+       },
+       {thumbnail:"https://img-c.udemycdn.com/course/240x135/4743940_53b1_6.jpg",
+        title:"The Full Stack Web Development Bootcamp (Frontend & Backend)",
+        tutor:"Faizal Zamir, Jafri Code",
+        rating:'<span class="rating_size">4.7</span>  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>',
+        rating_count:"(447)",
+        price:"₹2,699",
          category:"web development"
        },
 
@@ -76,12 +124,12 @@ wrapper_web.innerHTML+=`
                       />
                     </div>
                     <div class="detail_box px-4 py-2">
-                      <h6>${item.title}</h6>
+                      <h6 class="item_title">${item.title}</h6>
                       <span class="text-secondary">${item.tutor}</span>
                       <p class="m-0 mb-2 fw-bold">${item.rating}
-                        <span class="text-secondary rating_count"> ${item.rating_count}</span>
+                        <span class="text-secondary rating_count fw-light"> ${item.rating_count}</span>
                       </p>
-                      <span class="fw-bold">${item.price}</span>
+                      <span class="course_price">${item.price}</span>
                     </div>
                   </div>
                 </div>
