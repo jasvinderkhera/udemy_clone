@@ -2300,803 +2300,757 @@
       </div>
 
       <div class="container pt-1">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active categ" data-bs-toggle="tab" href="#web"
-              >Web Development</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link categ" data-bs-toggle="tab" href="#it"
-              >IT Certifations</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link categ" data-bs-toggle="tab" href="#lead"
-              >Leadership</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link categ" data-bs-toggle="tab" href="#data"
-              >Data Science</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link categ" data-bs-toggle="tab" href="#com"
-              >Communication</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link categ" data-bs-toggle="tab" href="#bai"
-              >Business Ananlytics & Intelligence</a
-            >
-          </li>
-        </ul>
-        <hr />
-
        
-        <div class="tab-content mt-2">
-         
-          <div class="tab-pane active" id="web">
-            <div class="sub_categories">
-              <span class="badge text-dark active">Web Development
-               <span class="learners pt-2"> 13.3M+ learners</span>
-              </span>
-              <span class="badge text-dark">JavaScript
-                <span class="learners pt-2"> 16.6M+ learners</span>
-              </span>
-              <span class="badge text-dark">React JS
-                <span class="learners pt-2"> 7M+ learners</span>
-              </span>
-              <span class="badge text-dark">Angular
-                <span class="learners pt-2"> 4M+ learners</span>
-              </span>
-              <span class="badge text-dark">Java
-                <span class="learners pt-2"> 15.5M+ learners</span>
-              </span>
-              <span class="badge text-dark">Android Development
-                <span class="learners pt-2"> 8M+ learners</span>
-              </span>
-              <span class="badge text-dark">iOS Developer
-                <span class="learners pt-2"> 4M+ learners</span>
-              </span>
-              <span class="badge text-dark">CSS
-                <span class="learners pt-2"> 9M+ learners</span>
-              </span>
-            </div>
-            <div class="cat_swiper-container">
-              <div class="swiper-wrapper wrapped wrapper_web">
-             
-              </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-          </div>
-          <div class="tab-pane" id="it">
-            <div class="sub_categories">
-              <span class="badge text-dark active">Amazon AWS
-               <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">AWS Certified Cloud Practitioner
-                <span class="learners pt-2"> 2M+ learners</span>
-              </span>
-              <span class="badge text-dark">Microsoft AZ-900
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">AWS Certified Solutions Architect - Associate
-                <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">Kubernetes
-                <span class="learners pt-2"> 1+ learners</span>
-              </span>
-              <span class="badge text-dark">AWS Certified Developer - Associate
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Cisco CCNA
-                <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">CompTIA Security+
-                <span class="learners pt-2"> 953,500+ learners</span>
-              </span>
-            </div>
-            <div class="cat_swiper-container">
-              <div class="swiper-wrapper wrapped">
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/3142166_a637_3.jpg"
-                        class="slide-image"
-                      />
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+          <ul class="nav nav-tabs container" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link main active" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="true">Web Development</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link main" id="it-tab" data-bs-toggle="tab" data-bs-target="#it-tab-pane" type="button" role="tab" aria-controls="it-tab-pane" aria-selected="false">IT Certifications</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link main" id="leader-tab" data-bs-toggle="tab" data-bs-target="#leader-tab-pane" type="button" role="tab" aria-controls="leader-tab-pane" aria-selected="false">Leadership</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link main" id="data-tab" data-bs-toggle="tab" data-bs-target="#data-tab-pane" type="button" role="tab" aria-controls="data-tab-pane" aria-selected="false">Data Science</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link main" id="com-tab" data-bs-toggle="tab" data-bs-target="#com-tab-pane" type="button" role="tab" aria-controls="com-tab-pane" aria-selected="false">Communication</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link main" id="bus-tab" data-bs-toggle="tab" data-bs-target="#bus-tab-pane" type="button" role="tab" aria-controls="bus-tab-pane" aria-selected="false">Business Analytics & Intelligence</button>
+            </li>
+          </ul>
+          <hr>
+          <div class="tab-content container" id="myTabContent">
+            <!-- web Tab Pane -->
+            <div class="tab-pane fade show active" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab" tabindex="0">
+              <!-- Secondary Nav Pills for web -->
+              <ul class="nav nav-pills mb-3 tab_flex nested-nav" id="secondaryNavWebDev" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2 active" id="nav-web-dev-tab" data-bs-toggle="pill" href="#nav-web-dev" role="tab" aria-controls="nav-web-dev" aria-selected="true">
+                  <span class="cat_name"> Web Development</span>
+                   <br>
+                   <span class="learners"> 13.3M+ learners</span>
+                   </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-javascript-tab" data-bs-toggle="pill" href="#nav-javascript" role="tab" aria-controls="nav-javascript" aria-selected="false">
+                    <span class="cat_name"> JavaScript</span>
+                    <br>
+                    <span class="learners"> 16.6M+ learners</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-react-tab" data-bs-toggle="pill" href="#nav-react" role="tab" aria-controls="nav-react" aria-selected="false">
+                    <span class="cat_name"> React JS</span>
+                    <br>
+                    <span class="learners"> 7M+ learners</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-angular-tab" data-bs-toggle="pill" href="#nav-angular" role="tab" aria-controls="nav-angular" aria-selected="false">
+                    <span class="cat_name"> Angular</span>
+                    <br>
+                    <span class="learners"> 4M+ learners</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-java-tab" data-bs-toggle="pill" href="#nav-java" role="tab" aria-controls="nav-java" aria-selected="false">
+                    <span class="cat_name"> Java</span>
+                    <br>
+                    <span class="learners"> 15.5M+ learners</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-android-tab" data-bs-toggle="pill" href="#nav-android" role="tab" aria-controls="nav-android" aria-selected="false">
+                    <span class="cat_name"> Android Development</span>
+                    <br>
+                    <span class="learners"> 8M+ learners</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-ios-tab" data-bs-toggle="pill" href="#nav-ios" role="tab" aria-controls="nav-ios" aria-selected="false">
+                    <span class="cat_name"> iOS Developer</span>
+                    <br>
+                    <span class="learners"> 4M+ learners</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-css-tab" data-bs-toggle="pill" href="#nav-css" role="tab" aria-controls="nav-css" aria-selected="false">
+                    <span class="cat_name">CSS </span>
+                    <br>
+                    <span class="learners"> 9M+ learners</span>
+                  </a>
+                </li>
+              </ul>
+              <!-- Secondary Nav Pills Content for Web -->
+              <div class="tab-content" id="secondaryNavContentWebDev">
+                <div class="tab-pane fade show active" id="nav-web-dev" role="tabpanel" aria-labelledby="nav-web-dev-tab">
+                  <div class="cat_swiper-container">
+                    <div class="swiper-wrapper wrapped wrapper_web">
+                   
                     </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02</h6>
-                      <span class="text-secondary">Stephane Maarek|AWS Certified Cloud...</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                       <span class="text-secondary rating_count"> (213,501)</span>
-                      </p>
-                      <span class="fw-bold">₹3,499</span>
-                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade show" id="nav-javascript" role="tabpanel" aria-labelledby="nav-javascript-tab">
+                  <h5>JavaScript Courses</h5>
+                  <p>JavaScript content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-react" role="tabpanel" aria-labelledby="nav-react-tab">
+                  <h5>React JS Courses</h5>
+                  <p>React JS content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-angular" role="tabpanel" aria-labelledby="nav-angular-tab">
+                  <h5>Angular Courses</h5>
+                  <p>Angular content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-java" role="tabpanel" aria-labelledby="nav-java-tab">
+                  <h5>Java Courses</h5>
+                  <p>Java content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-android" role="tabpanel" aria-labelledby="nav-android-tab">
+                  <h5>Android Courses</h5>
+                  <p>Android content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-ios" role="tabpanel" aria-labelledby="nav-ios-tab">
+                  <h5>iOS Courses</h5>
+                  <p>iOS content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-css" role="tabpanel" aria-labelledby="nav-css-tab">
+                  <h5>CSS Courses</h5>
+                  <p>CSS content goes here.</p>
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+
+              <button>Show All Web Development Courses</button>
             </div>
-          </div>
-          <div class="tab-pane" id="lead">
-            <div class="sub_categories">
-              <span class="badge text-dark active">Leadership
-               <span class="learners pt-2"> 2M+ learners</span>
-              </span>
-              <span class="badge text-dark">Management Skills
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Project Management
-                <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">Personal Productivity
-                <span class="learners pt-2"> 2M+ learners</span>
-              </span>
-              <span class="badge text-dark">Emotional Intelligence
-                <span class="learners pt-2"> 960,700+ learners</span>
-              </span>
-              <span class="badge text-dark">Digital Transformation
-                <span class="learners pt-2"> 327,700+ learners</span>
-              </span>
-              <span class="badge text-dark">Business Strategy
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Conflict Management
-                <span class="learners pt-2"> 236,200+ learners</span>
-              </span>
-            </div>
-            <div class="cat_swiper-container">
-              <div class="swiper-wrapper wrapped">
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
+      
+            <!-- IT Tab Pane -->
+            <div class="tab-pane fade" id="it-tab-pane" role="tabpanel" aria-labelledby="it-tab" tabindex="0">
+              <!-- Secondary Nav Pills for IT -->
+              <ul class="nav nav-pills mb-3 nested-nav tab_flex" id="secondaryNavIT" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2 active" id="nav-amazon-tab" data-bs-toggle="pill" href="#nav-amazon" role="tab" aria-controls="nav-amazon" aria-selected="true">
+                    <span class="cat_name"> Amazon AWS</span>
+                   <br>
+                   <span class="learners"> 3M+ learners</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-Amazon_1-tab" data-bs-toggle="pill" href="#nav-aws_cert" role="tab" aria-controls="nav-aws_cert" aria-selected="false">
+                    <span class="cat_name"> AWS Certified Cloud Practitioner</span>
+                    <br>
+                    <span class="learners"> 2M+ learners</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-micro-tab" data-bs-toggle="pill" href="#nav-micro" role="tab" aria-controls="nav-micro" aria-selected="false">
+                    <span class="cat_name"> Microsoft A-Z-900</span>
+                    <br>
+                    <span class="learners"> 1M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-associate-tab" data-bs-toggle="pill" href="#nav-associate" role="tab" aria-controls="nav-associate" aria-selected="false">
+                    <span class="cat_name"> AWS Certified Solutions Architect-Associate</span>
+                    <br>
+                    <span class="learners"> 3M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-kuber-tab" data-bs-toggle="pill" href="#nav-kuber" role="tab" aria-controls="nav-kuber" aria-selected="false">
+                    <span class="cat_name">Kubernetes</span>
+                    <br>
+                    <span class="learners"> 1M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-aws_dev-tab" data-bs-toggle="pill" href="#nav-aws_dev" role="tab" aria-controls="nav-aws_dev" aria-selected="false">
+                    <span class="cat_name">AWS Certified Developer-Associate</span>
+                    <br>
+                    <span class="learners"> 1M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-cisco-tab" data-bs-toggle="pill" href="#nav-cisco" role="tab" aria-controls="nav-cisco" aria-selected="false">
+                    <span class="cat_name">Cisco CCNA</span>
+                    <br>
+                    <span class="learners"> 1M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-comptia-tab" data-bs-toggle="pill" href="#nav-comptia" role="tab" aria-controls="nav-comptia" aria-selected="false">
+                    <span class="cat_name">CompTIA Security+</span>
+                    <br>
+                    <span class="learners"> 953,900+ learners</span></a>
+                  </a>
+                </li>
+              </ul>
+              <!-- Secondary Nav Pills Content for IT -->
+              <div class="tab-content" id="secondaryNavContentITCert">
+
+                <div class="tab-pane fade show active" id="nav-amazon" role="tabpanel" aria-labelledby="nav-amazon-tab">
+                  <div class="cat_swiper-container">
+                    <div class="swiper-wrapper wrapped">
+                      <div class="con swiper-slide">
+                        <div class="swiper_overlay_1 border border-2">
+                          <div class="img_box">
+                            <img
+                              src="https://img-c.udemycdn.com/course/240x135/3142166_a637_3.jpg"
+                              class="slide-image"
+                            />
+                          </div>
+                          <div class="detail_box px-4 py-2">
+                            <h6>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02</h6>
+                            <span class="text-secondary">Stephane Maarek|AWS Certified Cloud...</span>
+                            <p class="m-0 mb-2 fw-bold">4.7
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                             <span class="text-secondary rating_count"> (213,501)</span>
+                            </p>
+                            <span class="fw-bold">₹3,499</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="con swiper-slide">
+                        <div class="swiper_overlay_1 border border-2">
+                          <div class="img_box">
+                            <img
+                              src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
+                              class="slide-image"
+                            />
+                          </div>
+                          <div class="detail_box px-4 py-2">
+                            <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
+                            <span class="text-secondary">Srini Vanmala</span>
+                            <p class="m-0 mb-2 fw-bold">4.7
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <span class="fw-bold">₹6,500</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="con swiper-slide">
+                        <div class="swiper_overlay_1 border border-2">
+                          <div class="img_box">
+                            <img
+                              src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
+                              class="slide-image"
+                            />
+                          </div>
+                          <div class="detail_box px-4 py-2">
+                            <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
+                            <span class="text-secondary">Srini Vanmala</span>
+                            <p class="m-0 mb-2 fw-bold">4.7
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <span class="fw-bold">₹6,500</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="con swiper-slide">
+                        <div class="swiper_overlay_1 border border-2">
+                          <div class="img_box">
+                            <img
+                              src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
+                              class="slide-image"
+                            />
+                          </div>
+                          <div class="detail_box px-4 py-2">
+                            <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
+                            <span class="text-secondary">Srini Vanmala</span>
+                            <p class="m-0 mb-2 fw-bold">4.7
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <span class="fw-bold">₹6,500</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="con swiper-slide">
+                        <div class="swiper_overlay_1 border border-2">
+                          <div class="img_box">
+                            <img
+                              src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
+                              class="slide-image"
+                            />
+                          </div>
+                          <div class="detail_box px-4 py-2">
+                            <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
+                            <span class="text-secondary">Srini Vanmala</span>
+                            <p class="m-0 mb-2 fw-bold">4.7
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <span class="fw-bold">₹6,500</span>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-aws_cert" role="tabpanel" aria-labelledby="nav-aws_cert-tab">
+                  <h5>Amazon_AWS Courses</h5>
+                  <p>Amazon_AWS content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-micro" role="tabpanel" aria-labelledby="nav-micro-tab">
+                  <h5>Microsoft Courses</h5>
+                  <p>Microsoft content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-associate" role="tabpanel" aria-labelledby="nav-associate-tab">
+                  <h5>associate Courses</h5>
+                  <p>associate content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-kuber" role="tabpanel" aria-labelledby="nav-kuber-tab">
+                  <h5>kuber Courses</h5>
+                  <p>kuber content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-aws_dev" role="tabpanel" aria-labelledby="nav-aws_dev-tab">
+                  <h5>aws_dev Courses</h5>
+                  <p>aws_dev content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-cisco" role="tabpanel" aria-labelledby="nav-cisco-tab">
+                  <h5>cisco Courses</h5>
+                  <p>cisco content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-comptia" role="tabpanel" aria-labelledby="nav-comptia-tab">
+                  <h5>comptia Courses</h5>
+                  <p>comptia content goes here.</p>
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+              <button>Show All IT Certifications Courses</button>
             </div>
-          </div>
-          <div class="tab-pane" id="data">
-            <div class="sub_categories">
-              <span class="badge text-dark active">Data Science
-               <span class="learners pt-2"> 7M+ learners</span>
-              </span>
-              <span class="badge text-dark">Python
-                <span class="learners pt-2"> 45.5M+ learners</span>
-              </span>
-              <span class="badge text-dark">Machine Learning
-                <span class="learners pt-2"> 8M+ learners</span>
-              </span>
-              <span class="badge text-dark">ChatGPT
-                <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">Deep Learning
-                <span class="learners pt-2"> 2M+ learners</span>
-              </span>
-              <span class="badge text-dark">Artificial Intelligence
-                <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">Statistics
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Natural Language Processing
-                <span class="learners pt-2"> 770,700+ learners</span>
-              </span>
-            </div>
-            <div class="cat_swiper-container">
-              <div class="swiper-wrapper wrapped">
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+      
+            <!-- leader Tab Pane -->
+            <div class="tab-pane fade" id="leader-tab-pane" role="tabpanel" aria-labelledby="leader-tab" tabindex="0">
+              <!-- Secondary Nav Pills for leader -->
+              <ul class="nav nav-pills mb-3 nested-nav tab_flex" id="secondaryNavLeadership" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2 active" id="nav-leadership-tab" data-bs-toggle="pill" href="#nav-leadership-content" role="tab" aria-controls="nav-leadership-content" aria-selected="true">
+                    <span class="cat_name">Leadership</span>
+                    <br>
+                    <span class="learners"> 2M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-management-tab" data-bs-toggle="pill" href="#nav-management-content" role="tab" aria-controls="nav-management-content" aria-selected="false">
+                    <span class="cat_name">Management Skills</span>
+                    <br>
+                    <span class="learners"> 1M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-project-tab" data-bs-toggle="pill" href="#nav-project-content" role="tab" aria-controls="nav-project-content" aria-selected="false">
+                    <span class="cat_name">Project Management</span>
+                    <br>
+                    <span class="learners"> 3M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-personal-tab" data-bs-toggle="pill" href="#nav-personal-content" role="tab" aria-controls="nav-personal-content" aria-selected="false">
+                    <span class="cat_name">Personal Productivity</span>
+                    <br>
+                    <span class="learners"> 2M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-emotional-tab" data-bs-toggle="pill" href="#nav-emotional-content" role="tab" aria-controls="nav-emotional-content" aria-selected="false">
+                    <span class="cat_name">Emotional Intelligence</span>
+                    <br>
+                    <span class="learners"> 960,800+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-digital-tab" data-bs-toggle="pill" href="#nav-digital-content" role="tab" aria-controls="nav-digital-content" aria-selected="false">
+                    <span class="cat_name">Digital Transformation</span>
+                    <br>
+                    <span class="learners"> 327,800+ learners</span></a>
+                  </a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-business-tab" data-bs-toggle="pill" href="#nav-business-content" role="tab" aria-controls="nav-business-content" aria-selected="false">
+                    <span class="cat_name">Business Strategy</span>
+                    <br>
+                    <span class="learners"> 1M+ learners</span></a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cat_name_link px-3 py-2" id="nav-conflict-tab" data-bs-toggle="pill" href="#nav-conflict-content" role="tab" aria-controls="nav-conflict-content" aria-selected="false">
+                    <span class="cat_name">Conflict Management</span>
+                    <br>
+                    <span class="learners"> 3M+ learners</span></a>
+                  </a>
+                </li>
+              </ul>
+              <!-- Secondary Nav Pills Content for leader -->
+              <div class="tab-content" id="secondaryNavContentLeadership">
+                <div class="tab-pane fade show active" id="nav-leadership-content" role="tabpanel" aria-labelledby="nav-leadership-tab">
+                  <h5>Leadership Courses</h5>
+                  <p>Leadership content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-management-content" role="tabpanel" aria-labelledby="nav-management-tab">
+                  <h5>Management Courses</h5>
+                  <p>Management content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-project-content" role="tabpanel" aria-labelledby="nav-project-tab">
+                  <h5>Project Courses</h5>
+                  <p>Project content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-personal-content" role="tabpanel" aria-labelledby="nav-personal-tab">
+                  <h5>personal Courses</h5>
+                  <p>personal content goes here.</p>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
+                <div class="tab-pane fade" id="nav-emotional-content" role="tabpanel" aria-labelledby="nav-emotional-tab">
+                  <h5>emotional Courses</h5>
+                  <p>emotional content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-digital-content" role="tabpanel" aria-labelledby="nav-digital-tab">
+                  <h5>Digital Courses</h5>
+                  <p>digital content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-business-content" role="tabpanel" aria-labelledby="nav-business-tab">
+                  <h5>business Courses</h5>
+                  <p>business content goes here.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-conflict-content" role="tabpanel" aria-labelledby="nav-conflict-tab">
+                  <h5>conflict Courses</h5>
+                  <p>conflict content goes here.</p>
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+              <button>Show All Leadership Courses</button>
             </div>
-          </div>
-          <div class="tab-pane" id="com">
-            <div class="sub_categories">
-              <span class="badge text-dark active">Communicaiton Skills
-               <span class="learners pt-2"> 2M+ learners</span>
-              </span>
-              <span class="badge text-dark">Presentation Skills
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Public Speaking
-                <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">Writing
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">PowerPoint
-                <span class="learners pt-2"> 2M+ learners</span>
-              </span>
-              <span class="badge text-dark">Business Communication
-                <span class="learners pt-2"> 373,300+ learners</span>
-              </span>
-              <span class="badge text-dark">Business Writing
-                <span class="learners pt-2"> 264,800+ learners</span>
-              </span>
-              <span class="badge text-dark">Email Writing & Etiquette
-                <span class="learners pt-2"> 374,100+ learners</span>
-              </span>
+      
+            <!-- data Tab Pane -->
+            <div class="tab-pane fade" id="data-tab-pane" role="tabpanel" aria-labelledby="data-tab" tabindex="0">
+                <!-- Secondary Nav Pills for data -->
+                <ul class="nav nav-pills mb-3 nested-nav tab_flex" id="secondaryNavData" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2 active" id="nav-data-tab" data-bs-toggle="pill" href="#nav-data-content" role="tab" aria-controls="nav-data-content" aria-selected="true">
+                      <span class="cat_name">Data Science</span>
+                      <br>
+                      <span class="learners"> 7M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-python-tab" data-bs-toggle="pill" href="#nav-python-content" role="tab" aria-controls="nav-python-content" aria-selected="false">
+                      <span class="cat_name">Python</span>
+                      <br>
+                      <span class="learners"> 45.5M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-machine-tab" data-bs-toggle="pill" href="#nav-machine-content" role="tab" aria-controls="nav-machine-content" aria-selected="false">
+                      <span class="cat_name">Machine Learning</span>
+                      <br>
+                      <span class="learners"> 8M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-chatgpt-tab" data-bs-toggle="pill" href="#nav-chatgpt-content" role="tab" aria-controls="nav-chatgpt-content" aria-selected="false">
+                      <span class="cat_name">ChatGPT</span>
+                      <br>
+                      <span class="learners"> 3M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-deep-tab" data-bs-toggle="pill" href="#nav-deep-content" role="tab" aria-controls="nav-deep-content" aria-selected="false">
+                      <span class="cat_name">Deep Learning</span>
+                      <br>
+                      <span class="learners"> 2M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-artificial-tab" data-bs-toggle="pill" href="#nav-artificial-content" role="tab" aria-controls="nav-artificial-content" aria-selected="false">
+                      <span class="cat_name">Artificial Intelligence</span>
+                      <br>
+                      <span class="learners"> 3M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-statistics-tab" data-bs-toggle="pill" href="#nav-statistics-content" role="tab" aria-controls="nav-statistics-content" aria-selected="false">
+                      <span class="cat_name">Statistics</span>
+                      <br>
+                      <span class="learners"> 1M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-natural-tab" data-bs-toggle="pill" href="#nav-natural-content" role="tab" aria-controls="nav-natural-content" aria-selected="false">
+                      <span class="cat_name">Natural Language Processing</span>
+                      <br>
+                      <span class="learners"> 770,700+ learners</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- Secondary Nav Pills Content for data -->
+                <div class="tab-content" id="secondaryNavContentData">
+                  <div class="tab-pane fade show active" id="nav-data-content" role="tabpanel" aria-labelledby="nav-data-tab">
+                    <h5>Data Courses</h5>
+                    <p>data content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-python-content" role="tabpanel" aria-labelledby="nav-python-tab">
+                    <h5>python Courses</h5>
+                    <p>python content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-machine-content" role="tabpanel" aria-labelledby="nav-machine-tab">
+                    <h5>machine Courses</h5>
+                    <p>machine content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-chatgpt-content" role="tabpanel" aria-labelledby="nav-chatgpt-tab">
+                    <h5>chatgpt Courses</h5>
+                    <p>chatgpt content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-deep-content" role="tabpanel" aria-labelledby="nav-deep-tab">
+                    <h5>deep Courses</h5>
+                    <p>deep content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-artificial-content" role="tabpanel" aria-labelledby="nav-artificial-tab">
+                    <h5>artificial Courses</h5>
+                    <p>artificial content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-statistics-content" role="tabpanel" aria-labelledby="nav-statistics-tab">
+                    <h5>statistics Courses</h5>
+                    <p>statistics content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-natural-content" role="tabpanel" aria-labelledby="nav-natural-tab">
+                    <h5>natural Courses</h5>
+                    <p>natural content goes here.</p>
+                  </div>
+                </div>
+                <button>Show All Data Science Courses</button>
             </div>
-            <div class="cat_swiper-container">
-              <div class="swiper-wrapper wrapped">
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
+      
+               <!-- com Tab Pane -->
+            <div class="tab-pane fade" id="com-tab-pane" role="tabpanel" aria-labelledby="com-tab" tabindex="0">
+                 <!-- Secondary Nav Pills for com -->
+                 <ul class="nav nav-pills mb-3 nested-nav tab_flex" id="secondaryNavCom" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2 active" id="nav-com-tab" data-bs-toggle="pill" href="#nav-com-content" role="tab" aria-controls="nav-com-content" aria-selected="true">
+                      <span class="cat_name">Communicaiton Skills</span>
+                    <br>
+                    <span class="learners"> 2M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-presentation-tab" data-bs-toggle="pill" href="#nav-presentation-content" role="tab" aria-controls="nav-presentation-content" aria-selected="false">
+                      <span class="cat_name">Presentation Skills</span>
+                      <br>
+                      <span class="learners"> 1M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-public-tab" data-bs-toggle="pill" href="#nav-public-content" role="tab" aria-controls="nav-public-content" aria-selected="false">
+                      <span class="cat_name">Public Speaking</span>
+                      <br>
+                      <span class="learners"> 3M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-writing-tab" data-bs-toggle="pill" href="#nav-writing-content" role="tab" aria-controls="nav-writing-content" aria-selected="false">
+                      <span class="cat_name">Writing</span>
+                      <br>
+                      <span class="learners"> 1M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-powerpoint-tab" data-bs-toggle="pill" href="#nav-powerpoint-content" role="tab" aria-controls="nav-powerpoint-content" aria-selected="false">
+                      <span class="cat_name">PowerPoint</span>
+                      <br>
+                      <span class="learners"> 2M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-business-tab" data-bs-toggle="pill" href="#nav-business-content" role="tab" aria-controls="nav-business-content" aria-selected="false">
+                      <span class="cat_name">Business Communication</span>
+                      <br>
+                      <span class="learners"> 373,300+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-bus_writ-tab" data-bs-toggle="pill" href="#nav-bus_writ-content" role="tab" aria-controls="nav-bus_writ-content" aria-selected="false">
+                      <span class="cat_name">Business Writing</span>
+                      <br>
+                      <span class="learners"> 264,800+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-email-tab" data-bs-toggle="pill" href="#nav-email-content" role="tab" aria-controls="nav-email-content" aria-selected="false">
+                      <span class="cat_name">Email Writing & Etiquette</span>
+                      <br>
+                      <span class="learners"> 374,100+ learners</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- Secondary Nav Pills Content for com -->
+                <div class="tab-content" id="secondaryNavContentCom">
+                  <div class="tab-pane fade show active" id="nav-com-content" role="tabpanel" aria-labelledby="nav-com-tab">
+                    <h5>com Courses</h5>
+                    <p>com content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-presentation-content" role="tabpanel" aria-labelledby="nav-presentation-tab">
+                    <h5>presentation Courses</h5>
+                    <p>presentation content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-public-content" role="tabpanel" aria-labelledby="nav-public-tab">
+                    <h5>public Courses</h5>
+                    <p>public content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-writing-content" role="tabpanel" aria-labelledby="nav-writing-tab">
+                    <h5>writing Courses</h5>
+                    <p>writing content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-powerpoint-content" role="tabpanel" aria-labelledby="nav-powerpoint-tab">
+                    <h5>powerpoint Courses</h5>
+                    <p>powerpoint content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-business-content" role="tabpanel" aria-labelledby="nav-business-tab">
+                    <h5>business Courses</h5>
+                    <p>business content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bus_writ-content" role="tabpanel" aria-labelledby="nav-bus_writ-tab">
+                    <h5>bus_writ Courses</h5>
+                    <p>bus_writ content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-email-content" role="tabpanel" aria-labelledby="nav-email-tab">
+                    <h5>email Courses</h5>
+                    <p>email content goes here.</p>
                   </div>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+                <button>Show All Communicaiton Courses</button>
             </div>
-          </div>
-          <div class="tab-pane" id="bai">
-            <div class="sub_categories">
-              <span class="badge text-dark active">Excel
-               <span class="learners pt-2"> 17.7M+ learners</span>
-              </span>
-              <span class="badge text-dark">SQL
-                <span class="learners pt-2"> 7M+ learners</span>
-              </span>
-              <span class="badge text-dark">Microsoft Power BI
-                <span class="learners pt-2"> 4M+ learners</span>
-              </span>
-              <span class="badge text-dark">Data Analysis
-                <span class="learners pt-2"> 3M+ learners</span>
-              </span>
-              <span class="badge text-dark">Business Analysis
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Tableau
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Data Visualisation
-                <span class="learners pt-2"> 1M+ learners</span>
-              </span>
-              <span class="badge text-dark">Data Modeling
-                <span class="learners pt-2"> 517,600+ learners</span>
-              </span>
-            </div>
-            <div class="cat_swiper-container">
-              <div class="swiper-wrapper wrapped">
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
+      
+            <!-- bus Tab Pane -->
+            <div class="tab-pane fade" id="bus-tab-pane" role="tabpanel" aria-labelledby="bus-tab" tabindex="0">
+               <!-- Secondary Nav Pills for bus -->
+               <ul class="nav nav-pills mb-3 nested-nav tab_flex" id="secondaryNavBus" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2 active" id="nav-excel-tab" data-bs-toggle="pill" href="#nav-excel-content" role="tab" aria-controls="nav-excel-content" aria-selected="true">
+                      <span class="cat_name">Excel</span>
+                      <br>
+                      <span class="learners"> 17.7M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-sql-tab" data-bs-toggle="pill" href="#nav-sql-content" role="tab" aria-controls="nav-sql-content" aria-selected="false">
+                      <span class="cat_name">SQL </span>
+                      <br>
+                      <span class="learners"> 7M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-bi-tab" data-bs-toggle="pill" href="#nav-bi-content" role="tab" aria-controls="nav-bi-content" aria-selected="false">
+                      <span class="cat_name">Microsoft Power BI</span>
+                      <br>
+                      <span class="learners"> 4M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-data_analysis-tab" data-bs-toggle="pill" href="#nav-data_analysis-content" role="tab" aria-controls="nav-data_analysis-content" aria-selected="false">
+                      <span class="cat_name">Data Analysis</span>
+                      <br>
+                      <span class="learners"> 3M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-bus_analysis-tab" data-bs-toggle="pill" href="#nav-bus_analysis-content" role="tab" aria-controls="nav-bus_analysis-content" aria-selected="false">
+                      <span class="cat_name">Business Analysis</span>
+                      <br>
+                      <span class="learners"> 1M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-tableau-tab" data-bs-toggle="pill" href="#nav-tableau-content" role="tab" aria-controls="nav-tableau-content" aria-selected="false">
+                      <span class="cat_name">Tableau</span>
+                      <br>
+                      <span class="learners"> 1M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-visual-tab" data-bs-toggle="pill" href="#nav-visual-content" role="tab" aria-controls="nav-visual-content" aria-selected="false">
+                      <span class="cat_name">Data Visualisation</span>
+                      <br>
+                      <span class="learners"> 1M+ learners</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cat_name_link px-3 py-2" id="nav-model-tab" data-bs-toggle="pill" href="#nav-model-content" role="tab" aria-controls="nav-model-content" aria-selected="false">
+                      <span class="cat_name">Data Modeling</span>
+                      <br>
+                      <span class="learners"> 517,600+ learners</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- Secondary Nav Pills Content for bus -->
+                <div class="tab-content" id="secondaryNavContentBus">
+                  <div class="tab-pane fade show active" id="nav-excel-content" role="tabpanel" aria-labelledby="nav-excel-tab">
+                    <h5>excel Courses</h5>
+                    <p>excel content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-sql-content" role="tabpanel" aria-labelledby="nav-sql-tab">
+                    <h5>sql Courses</h5>
+                    <p>sql content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bi-content" role="tabpanel" aria-labelledby="nav-bi-tab">
+                    <h5>bi Courses</h5>
+                    <p>bi content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-data_analysis-content" role="tabpanel" aria-labelledby="nav-data_analysis-tab">
+                    <h5>data_analysis Courses</h5>
+                    <p>data_analysis content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bus_analysis-content" role="tabpanel" aria-labelledby="nav-bus_analysis-tab">
+                    <h5>bus_analysis Courses</h5>
+                    <p>bus_analysis content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-tableau-content" role="tabpanel" aria-labelledby="nav-tableau-tab">
+                    <h5>tableau Courses</h5>
+                    <p>tableau content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-visual-content" role="tabpanel" aria-labelledby="nav-visual-tab">
+                    <h5>visual Courses</h5>
+                    <p>visual content goes here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-model-content" role="tabpanel" aria-labelledby="nav-model-tab">
+                    <h5>model Courses</h5>
+                    <p>model content goes here.</p>
                   </div>
                 </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="con swiper-slide">
-                  <div class="swiper_overlay_1 border border-2">
-                    <div class="img_box">
-                      <img
-                        src="https://img-c.udemycdn.com/course/240x135/2488654_e156_3.jpg"
-                        class="slide-image"
-                      />
-                    </div>
-                    <div class="detail_box px-4 py-2">
-                      <h6>The Complete 2023 PHP Full Stack Web Developer Bootcamp</h6>
-                      <span class="text-secondary">Srini Vanmala</span>
-                      <p class="m-0 mb-2 fw-bold">4.7
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </p>
-                      <span class="fw-bold">₹6,500</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+                <button>Show All Business Analytics & Intelligence Courses</button>
             </div>
           </div>
         </div>
