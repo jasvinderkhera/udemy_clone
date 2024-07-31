@@ -461,3 +461,13 @@ hr{
   flex-direction: column;
   overflow: hidden;
 }
+
+body{
+  background-color: #f7f9fa;
+}
+
+
+.trusted_companies{
+  height: 225px;
+  background-color: white;
+}
