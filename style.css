@@ -471,3 +471,35 @@ body{
   height: 225px;
   background-color: white;
 }
+
+
+/* goals */
+
+
+.nav-pills .nav-link.active{
+  border-left: 10px solid purple !important;
+  background-color: white;
+  color: black;
+}
+.nav-item a{
+  border:1px solid purple !important;
+  color: gray;
+  margin: 0 10px;
+}
+.tab_contain{
+  height: 150px;
+  width: 530px;
+}
+.pane-img{
+height: 660px;
+width: 600px;
+}
+.pane-img img{
+height: 100%;
+width: 100%;
+}
+
+.tab_img{
+  height: 64px;
+  width: 64px;
+}
