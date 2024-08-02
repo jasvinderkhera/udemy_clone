@@ -462,11 +462,11 @@ body {
 
 /* goals */
 
-.goals{
+.goals {
   margin-top: 40px;
 }
 
-.goals h2{
+.goals h2 {
   font-family: "suisse";
 }
 
@@ -488,13 +488,13 @@ body {
   background-color: white;
   color: black;
 }
-.nav-link.tab_contain.active .tab_content p{
+.nav-link.tab_contain.active .tab_content p {
   color: black;
 }
-.nav-link.tab_contain:hover{
+.nav-link.tab_contain:hover {
   background-color: #e4e8eb;
 }
-.nav-link.tab_contain:hover .tab_content p{
+.nav-link.tab_contain:hover .tab_content p {
   color: black !important;
 }
 .pane-img {
@@ -510,20 +510,20 @@ body {
   height: 64px;
   width: 64px;
 }
-.tab-content.goal_tab{
+.tab-content.goal_tab {
   margin-top: 0 !important;
   margin-left: 100px;
 }
 
-.tab_content h5{
-color: black;
+.tab_content h5 {
+  color: black;
 }
-.tab_content p{
+.tab_content p {
   font-size: 15px;
   font-weight: 500;
-  color:#6a6f73;
+  color: #6a6f73;
 }
-.goal_badge{
+.goal_badge {
   border: 1px solid #5022c3;
   color: #5022c3;
   font-size: 12px;
@@ -531,10 +531,88 @@ color: black;
   padding: 2px 8px;
   border-radius: 4px;
 }
-.goal_link{
+.goal_link {
   color: #5022c3;
   font-size: 16px;
   font-weight: 900;
   text-align: left;
   padding-left: 0;
+}
+
+/* plans_container---------------------------------------------------------------------------------------------------- */
+
+.plans_container h2 {
+  font-weight: 700;
+  font-family: "suisse";
+}
+.plans_container p {
+  font-size: 18px;
+  color: #6a6f73;
+  font-weight: 500;
+}
+
+.section_1{
+  border-top:8px solid #a435f0 !important;
+}
+.section_2, .section_3{
+  border-top:8px solid #5022c3 !important;
+}
+.plans_section h5{
+  font-family: "suisse";
+  font-weight: 500;
+}
+
+.plan_header{
+  background-color: #f7f9fa;
+}
+.plans_span{
+  font-size: 13px;
+}
+.plans_user{
+  font-size: 14px !important;
+  padding-top: 5px;
+}
+.plan_btn{
+  background-color: #2d2f31;
+  border: none;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+ height: 50px;
+ width: 370px;
+ margin: 20px 0;
+}
+
+
+/* reviews */
+.reviews_container{
+  background-color: #f7f9fa;
+}
+.reviews_boxes h2{
+  font-family: "suisse";
+  font-weight: 900;
+}
+.review_box{
+  background-color: white;
+  width: 310px;
+  height: 270px;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 8px;
+}
+.review_profile{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.review_profile img{
+  height: 100%;
+  width: 100%;
+}
+.reviewer_details{
+  font-size: 13px;
+  color:  #6a6f73;
+  line-height: 1.1;
 }
