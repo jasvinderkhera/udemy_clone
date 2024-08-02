@@ -616,3 +616,13 @@ body {
   color:  #6a6f73;
   line-height: 1.1;
 }
+.global_content h2{
+  font-family: "suisse";
+}
+.global_content p{
+  font-size: 18px;
+}
+.col-md-9 img{
+  width: 100%;
+  height: 100%;
+}
