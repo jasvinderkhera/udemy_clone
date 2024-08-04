@@ -644,3 +644,23 @@ body {
   font-weight: 900;
   padding-bottom: 15px;
 }
+
+
+
+/* Footer */
+.footer_container{
+  margin: 0;
+  background-color: #2d2f31;
+  border-top: 1px solid #3e4143;
+}
+
+.top_companies{
+  border-bottom: 1px solid #3e4143;
+}
+
+.diff_links{
+  gap: 150px;
+}
+.cont_4{
+  margin-left: 400px;
+}
