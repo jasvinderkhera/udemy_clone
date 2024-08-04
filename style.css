@@ -636,6 +636,9 @@ body {
 .trending_heading{
   font-family: "suisse";
 }
+.trending_links{
+  color:#5022c3 !important;
+}
 
 
 /* learners */
@@ -656,6 +659,18 @@ body {
 
 .top_companies{
   border-bottom: 1px solid #3e4143;
+}
+
+.business{
+  color:#c0c4fc !important;
+}
+.business:hover{
+  color:#c0c4fc !important;
+  text-decoration: underline;
+}
+.footer_links:hover{
+  color: white !important;
+  text-decoration: underline;
 }
 
 .diff_links{
