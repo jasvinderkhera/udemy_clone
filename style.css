@@ -325,7 +325,7 @@ hr {
   width: 1340px !important;
   height: 400px;
 }
-.swiper-slide img {
+.swiper-slide .img_box img {
   height: 100%;
   width: 100%;
 }
@@ -723,11 +723,9 @@ body {
   padding-right:50px;
   padding-left: 20px;
 }
-.swiper_cont_1 img {
-  height: 48px;
-  width: 275px;
-}
 .swiper_cont_2 img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 .swiper_cont_1 .boxes{
