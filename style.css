@@ -389,7 +389,7 @@ hr {
 }
 
 /* Categories */
-.cat_swiper-container {
+.cat_swiper-container, .js_swiper-container {
   overflow: hidden;
   position: relative;
   width: 100%;
