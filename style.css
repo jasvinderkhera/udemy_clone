@@ -832,7 +832,7 @@ body {
 }
 .sticky_tab{
   position: sticky !important;
-  top: 20px !important;
+  top: 30px !important;
 }
 .preview_img img{
  height: 100%;
@@ -946,4 +946,9 @@ width: 340px;
 }
 .b_div{
   color:#2d2f31;
+}
+
+.learn_container{
+  width: 700px;
+  margin-left: 210px !important;
 }
