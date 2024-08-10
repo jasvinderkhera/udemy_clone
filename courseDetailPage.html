@@ -65,13 +65,13 @@
   <body>
     <div class="container-fluid p-0">
       <nav>
-        <img
+        <a href="./index.html"><img
           src="./assets/images/logo-udemy.svg"
           alt=""
           class="img-fluid"
           height="35"
           width="90"
-        />
+        /></a>
 
         <!-- First Dropdown -->
 
@@ -2338,7 +2338,7 @@
               </div>
             </div>
           </div>
-          <div class="tabs">
+          <div class="tabs sticky_tab">
             <nav class="course_detail_nav">
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
                 <button class="nav-link main course_detail_links active course_detail_button" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Personal</button>
@@ -2358,13 +2358,61 @@
                 <div cl>or</div>
                 <div class="bottom_border"></div>
                 </div>
-                <h3>₹3,099</h3>
+                <h4 class="fw-bolder pt-3 pb-1">₹3,099</h4>
+                <button class="course_details_tab_cart_btn">Add to cart</button>
+
+                <p class="text-center text-secondary month_pricing pt-3 mb-0">30-Day Money-Back Guarantee</p>
+                <p class="text-center text-secondary month_pricing pt-1">Full Lifetime Access</p>
+
+                <div class="course_detail_share d-flex gap-4">
+                  <p class="fw-bold text-decoration-underline">Share</p>
+                  <p class="fw-bold">Gift this course</p>
+                  <p class="fw-bold">Apply Coupon</p>
+                </div>
+                <div class="coupon">
+                  <div class="box1">
+                    <span class="fw-bolder text-secondary">LEARNNOWPLANS</span> <span class="coupon_font text-secondary">is applied</span>
+                    <p class="coupon_font text-secondary mb-0">Udemy coupon</p>
+                  </div>
+                  <div class="box2">
+                    <i class="fa-solid fa-x pe-1"></i>
+                  </div>
+                </div>
+               <div class="coupon_input d-flex py-3">
+                <input type="text" class="form-control border-1 border-black rounded-0" placeholder="Enter Coupon">
+                <button class="px-3 bg-dark border-0 text-white fw-bold">Apply</button>
+               </div>
               </div>
-              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="container px-4 py-3">
+                  <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg" alt="" height="40" width="150">
+                  <p class="">Subscribe to this course and 26,000+ top‑rated Udemy courses for your organization.</p>
+                  <button class="business_btn">Try Udemy Business</button>
+                  <div class="business_div py-3 px-2">
+                    <div class="b_div d-flex align-items-center gap-3 py-2">
+                      <i class="fa-solid fa-check"></i>
+                      <p class="mb-0">For teams of 2 or more users</p>
+                    </div>
+                    <div class="b_div d-flex align-items-center gap-3 py-2">
+                      <i class="fa-solid fa-check"></i>
+                      <p class="mb-0">26,000+ fresh & in-demand courses</p>
+                    </div>
+                    <div class="b_div d-flex align-items-center gap-3 py-2">
+                      <i class="fa-solid fa-check"></i>
+                      <p class="mb-0">Learning Engagement tools</p>
+                    </div>
+                    <div class="b_div d-flex align-items-center gap-3 py-2">
+                      <i class="fa-solid fa-check"></i>
+                      <p class="mb-0">SSO and LMS Integrations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    
   </body>
 </html>
