@@ -952,3 +952,43 @@ width: 340px;
   width: 700px;
   margin-left: 210px !important;
 }
+
+.coding_exercises{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #f7f9fa;
+}
+
+.content_section_link{
+  color: #5022c3;
+  font-weight: 900;
+}
+.content_section_link:hover{
+  color: #3b198f;
+}
+.accordiann{
+  width: 676px;
+  font-size: 15px;
+}
+
+/* Table */
+
+.content_info td{
+  padding-bottom: 15px;
+}
+
+.icon{
+  padding-right:15px ;
+}
+
+.para{
+  padding-right:260px ;
+}
+
+.preview{
+  padding-right: 30px;
+}
+
+/* Table End */
