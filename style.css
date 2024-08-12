@@ -991,4 +991,19 @@ width: 340px;
   padding-right: 30px;
 }
 
+.content_info table td a{
+  color: #5022c3;
+}
+.content_info table td a:hover{
+  color: #3b198f;
+}
+
 /* Table End */
+
+.blue_shade_nav{
+  color: #5022c3;
+}
+
+.blue_shade_nav:hover{
+  color: #3b198f;
+}

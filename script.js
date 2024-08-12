@@ -1,3 +1,4 @@
+
 let parent_width = $(".cat_box").width()
 let child_width = $(".sub_categories").width()
 let translate = 0
@@ -47,3 +48,8 @@ var popoverTriggerList = [].slice.call(
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl);
   });
+
+
+
+
+ 
