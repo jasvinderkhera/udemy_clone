@@ -1087,3 +1087,24 @@ font-weight: 300;
 .course_box_p{
   line-height: 1.2;
 }
+
+.freq_img_box{
+  height: 113px;
+  width: 200px;
+}
+
+.instructor{
+  font-size: 12px;
+}
+
+.freq_btn{
+  background-color: #a435f0;
+  color: white;
+  font-weight: 900;
+  font-size: 16px;
+  border: none;
+  padding: 10px 12px;
+}
+.freq_btn:hover{
+  background-color: #8710d8;
+}
