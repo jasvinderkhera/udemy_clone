@@ -1108,3 +1108,7 @@ font-weight: 300;
 .freq_btn:hover{
   background-color: #8710d8;
 }
+
+.content_info{
+  /* display: none; */
+}
