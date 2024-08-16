@@ -1109,6 +1109,16 @@ font-weight: 300;
   background-color: #8710d8;
 }
 
-.content_info{
-  /* display: none; */
+.para_box{
+  position: relative;
+  height: 180px;
+}
+
+.para_box .overlay_bg{
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.519), #f7f9fa);
 }
