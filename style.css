@@ -498,7 +498,12 @@ hr {
   height: 60px;
   display: inline-flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.nav-link.course_carousel:hover{
+  color: black !important;
 }
 
 body {

@@ -136,7 +136,7 @@ function fetchData() {
             <table>
               <tr class="py-5">
                 <td class="icon" style="width:40px"><i class="${data[i].data[j].td_1}"></i></td>
-                <td style="width:450px">${data[i].data[j].td_2}</td>
+                <td style="width:430px">${data[i].data[j].td_2}</td>
                 <td class="preview">${data[i].data[j].td_3}</td>
                 <td class="text-secondary">${data[i].data[j].td_4}</td>
               </tr>

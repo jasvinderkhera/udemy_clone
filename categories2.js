@@ -116,6 +116,7 @@ let wrapper_web = document.querySelector(".wrapper_web")
 web_development_data.forEach(item => {
 wrapper_web.innerHTML+=`
 <div class="con swiper-slide">
+                <a href="./courseDetailPage.html" class="nav-link course_carousel">
                   <div class="swiper_overlay_1 border border-2">
                     <div class="img_box">
                       <img
@@ -132,6 +133,7 @@ wrapper_web.innerHTML+=`
                       <span class="course_price">${item.price}</span>
                     </div>
                   </div>
+                  </a>
                 </div>
 
 `
@@ -296,3 +298,33 @@ wrapper_js.innerHTML+=`
 
 `
 })
+
+
+
+// fetch("https://raw.githubusercontent.com/jasvinderkhera/Fake-Server/main/CarouselData.json").then(response=>response.json()).then((data)=>{
+
+//   let wrapper_react = document.querySelector(".wrapper_react")
+// data.forEach(item => {
+// wrapper_react.innerHTML+=`
+// <div class="con swiper-slide">
+//                   <div class="swiper_overlay_1 border border-2">
+//                     <div class="img_box">
+//                       <img
+//                         src="${item.thumbnail}"
+//                         class="slide-image"
+//                       />
+//                     </div>
+//                     <div class="detail_box px-4 py-2">
+//                       <h6 class="item_title">${item.title}</h6>
+//                       <span class="text-secondary">${item.tutor}</span>
+//                       <p class="m-0 mb-2 fw-bold">${item.rating}
+//                         <span class="text-secondary rating_count fw-light"> ${item.rating_count}</span>
+//                       </p>
+//                       <span class="course_price">${item.price}</span>
+//                     </div>
+//                   </div>
+//                 </div>
+
+// `
+// })
+// })
