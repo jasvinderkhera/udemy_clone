@@ -1192,3 +1192,8 @@ position: relative;
   height: 40px;
   font-weight: 700;
 }
+
+.rotate-icon {
+  transform: rotate(180deg);
+}
+
