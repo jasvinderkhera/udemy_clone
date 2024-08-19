@@ -133,6 +133,18 @@ wrapper_web.innerHTML+=`
                       <span class="course_price">${item.price}</span>
                     </div>
                   </div>
+                  <div class="carousel_content">
+                  <h5 class="fw-bold">${item.title}</h5>
+                  <span class="text-success">Updated June 2024</span>
+                  <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+                  <ul>
+                  <li>Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.</li>
+                  <li>Learn the latest technologies, including Javascript, React, Node and even Web3 development.</li>
+                  <li>After the course you will be able to build ANY website you want.</li>
+                  </ul>
+                  <button>Add to cart</button>
+
+                  </div>
                   </a>
                 </div>
 
