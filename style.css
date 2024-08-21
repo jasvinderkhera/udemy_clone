@@ -1242,3 +1242,52 @@ body {
 .rotate-icon {
   transform: rotate(180deg);
 }
+
+/* -------------------------------------Fixed Position Nav-------------------------------------------------------------------- */
+
+.fixed_container {
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+}
+
+.position_fx_nav {
+  background: #2d2f31;
+  color: white;
+  padding: 12px 15px;
+  box-shadow: 5px -4px 18px 0px black;
+}
+
+.bdg {
+  background-color: #eceb98;
+  color: black;
+  font-size: 12px;
+  padding: 3px 8px;
+  font-weight: bold;
+}
+
+.position_fx_nav .rating {
+  color: #f69c08;
+  font-weight: bolder;
+}
+
+.position_fx_nav .total_ratings {
+  color: #c0c4fc;
+}
+
+.fixed_container .tabs.sticky_tab {
+  background-color: white;
+  width: 350px;
+  height: 650px;
+  position: absolute !important;
+  top: 20px !important;
+  right: 210px;
+  box-shadow: 0px 2px 4px 1px rgba(128, 128, 128, 0.641);
+}
+
+.fixed_container .course_details_tab_cart_btn{
+background-color: #a435f0;
+color: white;
+border: none;
+}

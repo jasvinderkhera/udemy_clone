@@ -168,6 +168,19 @@ document.addEventListener('click', function(event) {
 
 
 
+window.addEventListener('scroll', function() {
+  var hiddenContent = document.querySelector('.fixed_container');
+  var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+  if (scrollPosition > 300) { // Adjust this value to control when the element appears
+      hiddenContent.style.display = 'block';
+  } else {
+      hiddenContent.style.display = 'none';
+  }
+});
+
+
+
 
 
 
