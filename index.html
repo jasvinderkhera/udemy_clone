@@ -11301,9 +11301,94 @@
 
     <div class="main_mobile">
       <div class="mob_nav py-1 px-3">
+        <div class="mob_sidebar">
+         <div class="mob_sidebar_wrapper">
+          <div class="mob_sidebar_top">
+            <div class="anchor pb-3">
+              <a href="">Log in</a>
+            </div>
+            <div class="anchor pb-3">
+              <a href="">Sign up</a>
+            </div>
+            <div class="anchor">
+              <a href="">Plans & Pricing</a>
+            </div>
+          </div>
+          <div class="mob_sidebar_mid">
+            <h6 class="text-secondary">Most popular</h6>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Web Development</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Mobile Development</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Game Development</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Entrepreneurship</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Business Analytics & Intelligence</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Finance</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">IT Certifications</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Personal Transformation</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Graphic Design & Illustration</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Digital Marketing</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="mob_category d-flex justify-content-between align-items-center pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">All categories</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="mob_sidebar_end">
+            <h6 class="text-secondary">More from Udemy</h6>
+            <div class="anchor pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Udemy Business</a>
+            </div>
+            <div class="anchor pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Get the app</a>
+            </div>
+            <div class="anchor pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Invite friends</a>
+            </div>
+            <div class="anchor pb-3">
+              <a href="" class="text-decoration-none text-black fs-6">Help</a>
+            </div>
+
+            <button class="mob_lang_btn">
+              <i class="fa-solid fa-globe"></i>
+              English
+            </button>
+          </div>
+         </div>
+         <div class="mob_cross_div">
+          <i class="fa-solid fa-x mob_sidebar_close"></i>
+         </div>
+        </div>
         <div class="mob_nav_start">
           <button class="nav_button">
-            <i class="fa-solid fa-bars fs-5"></i>
+            <i class="fa-solid fa-bars fs-5 mob_sidebar_open"></i>
           </button>
         </div>
         <div class="mob_nav_mid ps-3">
@@ -11669,6 +11754,13 @@
   $(".search_close").click(function(){
   $(".mob_search_input").hide();
 });
+
+$(".mob_sidebar_open").click(function(){
+  $(".mob_sidebar").show()
+})
+$(".mob_sidebar_close").click(function(){
+  $(".mob_sidebar").hide()
+})
 </script>
   </body>
 </html>
