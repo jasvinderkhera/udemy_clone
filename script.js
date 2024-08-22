@@ -50,51 +50,6 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 });
 
 
-// function fetchData(){
-//   fetch("https://raw.githubusercontent.com/jasvinderkhera/Fake-Server/main/CoursesServer.json").then(response=>response.json()).then((data)=>{
-
-// let accordian_btn = document.querySelector(".accordiann")
-// let content_info = document.querySelector(".content_info")
-
-// for (let i = 0; i < data.length; i++) {
-//   // console.log("Title:", data[i].title);
-//   // console.log("Lectures:", data[i].lectures);
-//   // console.log("Duration:", data[i].duration);
-
-//   accordian_btn.innerHTML+= `
-
-//             <div class="box1 d-flex align-items-center gap-3">
-//               <i class="fa-solid fa-angle-down"></i> <p class="mb-0 fw-bolder">${data[i].title}</p>
-//             </div>
-//             <div class="box2">
-//               <p class="mb-0">${data[i].lectures} . ${data[i].duration}</p>
-//             </div>
-//           </button>
-// `
-
-
-//   for (let j = 0; j < data[i].data.length; j++) {
-//     // console.log(" - Lecture:", data[i].data[j].td_2);
-//     // console.log(" - Duration:", data[i].data[j].td_4);
-//     content_info.innerHTML+=`
-//             <table>
-//               <tr class="py-5">
-//                 <td class="icon"><i class="${data[i].data[j].td_1}"></i></td>
-//                 <td style="width:470px">${data[i].data[j].td_2}</td>
-//                 <td class="preview">${data[i].data[j].td_3}</td>
-//                 <td class="text-secondary">${data[i].data[j].td_4}</td>
-//               </tr>
-//             </table>
-//           </div>
-// `
-//   }
-// }
-// })
-
-// }
-// fetchData()
-
-
 
 
 function fetchData() {
