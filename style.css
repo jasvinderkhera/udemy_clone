@@ -1291,3 +1291,61 @@ background-color: #a435f0;
 color: white;
 border: none;
 }
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+.mob_nav{
+display: none;
+}
+
+.main_mobile{
+  display: none;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------RESPONSIVE------------------------------------------------------------- */
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .main_mobile{
+    display: block;
+    width: 100%;
+  }
+
+.main_desktop{
+  display: none;
+}
+.mob_nav{
+  height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav_button{
+  border: none;
+  background-color: white;
+}
+.mob_nav_mid{
+  height: 30px;
+  width: 100px;
+}
+.mob_nav_mid img{
+  height: 100%;
+  width: 100%;
+}
+
+.mob_nav_end .search{
+  display: none;
+}
+
+}
+
+
