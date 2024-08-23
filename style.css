@@ -11,6 +11,10 @@ body {
   font-size: 14px;
 }
 
+.font_suisse{
+  font-family: "suisse";
+}
+
 nav {
   height: 70px;
   /* border-bottom: 0.5px solid rgba(128, 128, 128, 0.66); */
@@ -1292,6 +1296,16 @@ color: white;
 border: none;
 }
 
+.popover_ul {
+  list-style: none;
+}
+
+.popover_ul li:before {
+  content: '✓';
+  margin-left: -20px;
+  padding-right: 10px;
+}
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 .mob_nav{
@@ -1453,7 +1467,7 @@ padding-bottom: 8px;
 
 .mob_accordians button{
   border: none;
-  background-color: white;
+  background-color: #f7f9fa;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1465,13 +1479,28 @@ padding-bottom: 8px;
 .mob_carousel h3{
   font-family: "suisse";
 }
-.mob_swiper_slide{
+/* .mob_swiper_slide{
   height: 700px !important;
   width: 300px !important;
 }
 .mob_carousel_content{
   width: 300px !important;
+} */
+
+.mob_swiper_slide {
+  height: 600px !important;
+  width: 300px !important;
+  /* Ensure proper alignment within Swiper */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.mob_carousel_content {
+  width: 100% !important; /* Adjust to fill the slide's width */
+  text-align: left; /* Center the text content */
+}
+
 .mob_carousel_content span{
   border: 1px solid #5b30c7;
   color: #5b30c7;
@@ -1487,6 +1516,66 @@ padding-bottom: 8px;
   text-decoration: none;
   font-weight: bolder;
   font-size: 15px;
+}
+.mob_accordian_content{
+  display: none;
+}
+
+.mob_rotate-icon {
+  transform: rotate(180deg);
+  padding-top: 10px;
+}
+
+.mob_plans h3{
+  font-family: "suisse";
+}
+.mob_plan_accord{
+  background-color: #f7f9fa;
+  border: 1px solid #525252a2;
+  border-top: 8px solid #a435f0;
+  border-radius: 8px;
+}
+.mob_plan_accord p{
+font-size: 13px;
+}
+.mob_plan_accord_border{
+  border-top: 8px solid #5022c3;
+}
+.mob_achieve{
+  background-color: #f7f9fa;
+}
+.mob_top_trend{
+  background-color: white;
+}
+.mob_top_trend button{
+  background-color: white;
+  border: 1px solid;
+  padding: 12px 83px;
+  margin-bottom: 20px;
+}
+.mob_trending_now{
+  background-color: #f7f9fa;
+}
+
+.mob_chatgpt a{
+  text-decoration: none;
+  color: #5b30c7;
+  font-size: 15px;
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.mob_dev_and_des a{
+  text-decoration: none;
+  color: #5b30c7;
+  font-size: 14px;
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 10px;
+}
+.mob_dev_and_des span{
+  font-size: 13px;
 }
 
 }
