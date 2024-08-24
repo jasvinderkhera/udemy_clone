@@ -56,7 +56,7 @@ nav {
 }
 
 .dropdown {
-  padding: 20px 0;
+  padding: 22px 0;
 }
 
 .menu1 {
@@ -1250,6 +1250,7 @@ body {
 /* -------------------------------------Fixed Position Nav-------------------------------------------------------------------- */
 
 .fixed_container {
+  display: none;
   position: fixed;
   top: 0;
 
@@ -1450,7 +1451,7 @@ color: gray;
   position: relative;
 }
 .mob_search_div input{
-  width: 300px;
+  width: 100%;
   height: 50px;
   padding: 5px 10px;
   font-size: 16px;
@@ -1471,7 +1472,7 @@ padding-bottom: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 300px;
+  width: 100%;
 }
 .mob_carousel{
   background-color: #f7f9fa;
@@ -1479,17 +1480,18 @@ padding-bottom: 8px;
 .mob_carousel h3{
   font-family: "suisse";
 }
-/* .mob_swiper_slide{
-  height: 700px !important;
-  width: 300px !important;
-}
-.mob_carousel_content{
-  width: 300px !important;
-} */
 
 .mob_swiper_slide {
   height: 600px !important;
   width: 300px !important;
+  /* Ensure proper alignment within Swiper */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mob_swiper_achieve{
+  height: 350px !important;
+  width: 240px !important;
   /* Ensure proper alignment within Swiper */
   display: flex;
   flex-direction: column;
@@ -1558,6 +1560,21 @@ font-size: 13px;
 .mob_achieve{
   background-color: #f7f9fa;
 }
+
+.mob_learning_testimonial{
+height: 345px;
+width: 240px;
+background-color: white;
+}
+
+.mob_learning_testimonial a{
+color: #5022c3;
+text-decoration: none;
+}
+.person_details{
+  font-size: 12px;
+}
+
 .mob_top_trend{
   background-color: white;
 }
@@ -1601,6 +1618,12 @@ font-size: 13px;
   padding: 12px 50px;
   margin-bottom: 20px;
 }
+.mob_learners{
+  overflow: hidden !important;
+}
+.mob_learners_carousel{
+width: 100%;
+}
 
 .mob_footer{
   background-color: #2d2f31;
@@ -1641,6 +1664,25 @@ font-size: 13px;
   color: white;
   text-decoration: none;
 }
+
+.mob_swiper-slide{
+  width: 350px;
+}
+
+.mob_last_carousel{
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.mob_last_swiper_cont p{
+  font-size: 11px;
+}
+.mob_carousel_btn{
+  width: 100%;
+  margin-bottom: 100px;
+}
+
 
 }
 
