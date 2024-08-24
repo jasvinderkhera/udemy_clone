@@ -1684,6 +1684,86 @@ width: 100%;
 }
 
 
+
+/* ----------------------------------------------detail Page---------------------------------------------------------------- */
+
+
+
+.detail_mob_breadcrumb a {
+  color: #643bca;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.detail_mob_bread_angle{
+  font-size: 10px;
+}
+
+.detail_mob_img_banner{
+  position: relative;
+}
+
+.detail_mob_overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:linear-gradient(rgba(48, 48, 48, 0.378),rgba(0, 0, 0, 0.537));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detail_mob_play{
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.detail_mob_course_details a{
+  color: #5c31c7;
+}
+.detail_mob_tag{
+  background-color: #eceb98;
+  padding: 5px 7px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.detail_mob_course_details_tab_cart_btn {
+  padding: 12px 0;
+  width: 100%;
+  font-weight: 900;
+  font-size: 15px;
+  background: #a435f0;
+  color: white;
+  border: none;
+}
+
+.detail_mob_coding_exercise{
+  background-color: #f7f9fa;
+}
+
+.detail_mob_accordiann{
+  width: 100%;
+}
+
+.mob_content_info a{
+  color: #5c31c7;
+}
+
+.detail_mob_show_more_btn {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid;
+  background: white;
+  font-weight: 700;
+}
 }
 
 

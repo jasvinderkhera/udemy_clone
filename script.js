@@ -58,6 +58,7 @@ function fetchData() {
     .then((data) => {
 
       let accordian_div = document.querySelector(".accordian_div");
+      
 
 
       for (let i = 0; i < data.length; i++) {
@@ -93,6 +94,40 @@ function fetchData() {
           `;
         }
       }
+
+      let mob_accordian_div = document.querySelector(".mob_accordian_div");
+
+
+      for (let i = 0; i < data.length; i++) {
+
+        mob_accordian_div.innerHTML += `
+       <div class="accordian_parent border border-1">
+        <button class="detail_mob_accordiann px-4 py-3 border border-1">
+          <div class="box1 d-flex align-items-center gap-3">
+            <i class="fa-solid fa-angle-down"></i> 
+            <p class="mb-0 fw-bolder">${data[i].title}</p>
+          </div>
+          </button>
+          <div class="mob_content_info px-3 py-3" style="display:none">
+          </div>
+       </div>
+        `;
+
+        for (let j = 0; j < data[i].data.length; j++) {
+          let mob_content_info = document.querySelectorAll(".mob_content_info");
+          mob_content_info[i].innerHTML += `
+
+            <table>
+              <tr class="py-5">
+                <td class="icon py-2" style="width:40px"><i class="${data[i].data[j].td_1}"></i></td>
+                <td style="width:430px">${data[i].data[j].td_2}</td>
+                
+              </tr>
+            </table>
+          `;
+        }
+      }
+
     })
     .catch(error => {
       console.error('Error fetching data:', error);
@@ -110,6 +145,22 @@ document.addEventListener('click', function(event) {
   // Check if the clicked element is a button with the class 'accordiann'
   if (event.target.closest('.accordiann')) {
       const button = event.target.closest('.accordiann');
+      const content = button.nextElementSibling;
+
+      // Toggle the content visibility
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+
+      // Toggle the icon direction
+      const icon = button.querySelector('.fa-angle-down');
+      icon.classList.toggle('rotate-icon');
+  }
+});
+
+
+document.addEventListener('click', function(event) {
+  // Check if the clicked element is a button with the class 'accordiann'
+  if (event.target.closest('.detail_mob_accordiann')) {
+      const button = event.target.closest('.detail_mob_accordiann');
       const content = button.nextElementSibling;
 
       // Toggle the content visibility
