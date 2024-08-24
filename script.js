@@ -123,11 +123,25 @@ document.addEventListener('click', function(event) {
 
 
 
+// window.addEventListener('scroll', function() {
+//   var hiddenContent = document.querySelector('.fixed_container');
+//   var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+//   if (scrollPosition > 300) { // Adjust this value to control when the element appears
+//       hiddenContent.style.display = 'block';
+//   } else {
+//       hiddenContent.style.display = 'none';
+//   }
+// });
+
 window.addEventListener('scroll', function() {
   var hiddenContent = document.querySelector('.fixed_container');
   var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+  var documentHeight = document.documentElement.scrollHeight;
+  var windowHeight = window.innerHeight;
+  var distanceFromBottom = documentHeight - (scrollPosition + windowHeight);
 
-  if (scrollPosition > 300) { // Adjust this value to control when the element appears
+  if (scrollPosition > 300 && distanceFromBottom > 300) {
       hiddenContent.style.display = 'block';
   } else {
       hiddenContent.style.display = 'none';
