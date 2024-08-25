@@ -1,40 +1,40 @@
 
-let parent_width = $(".cat_box").width()
-let child_width = $(".sub_categories").width()
-let translate = 0
-let max = child_width - parent_width
+// let parent_width = $(".cat_box").width()
+// let child_width = $(".sub_categories").width()
+// let translate = 0
+// let max = child_width - parent_width
 
-function setWidth() {
+// function setWidth() {
 
-}
-//max translate = child_width - parent_width
-function left(button) {
-  if (translate <= 0) {
-    $(button).hide()
-    $(button).parent().parent().find(".right").show()
-  } else {
-    translate -= 50
-  }
+// }
+// //max translate = child_width - parent_width
+// function left(button) {
+//   if (translate <= 0) {
+//     $(button).hide()
+//     $(button).parent().parent().find(".right").show()
+//   } else {
+//     translate -= 50
+//   }
 
-  console.log(parent_width, child_width)
-  // $(".child").css("transform","translateX("+translate+"px)")
-  $(button).parent().parent().find(".cat_box").scrollLeft(translate)
-}
-function right(button) {
-  if (translate >= max) {
-    $(button).hide()
+//   console.log(parent_width, child_width)
+//   // $(".child").css("transform","translateX("+translate+"px)")
+//   $(button).parent().parent().find(".cat_box").scrollLeft(translate)
+// }
+// function right(button) {
+//   if (translate >= max) {
+//     $(button).hide()
 
-    $(button).parent().parent().find(".left").show()
+//     $(button).parent().parent().find(".left").show()
 
-  } else {
-    translate += 50
-  }
+//   } else {
+//     translate += 50
+//   }
 
-  console.log(parent_width, child_width)
-  // $(".child").css("transform","translateX("+translate+"px)")
-  $(button).parent().parent().find(".cat_box").scrollLeft(translate)
+//   console.log(parent_width, child_width)
+//   // $(".child").css("transform","translateX("+translate+"px)")
+//   $(button).parent().parent().find(".cat_box").scrollLeft(translate)
 
-}
+// }
 
 
 
@@ -194,6 +194,21 @@ window.addEventListener('scroll', function() {
 
   if (scrollPosition > 300 && distanceFromBottom > 300) {
       hiddenContent.style.display = 'block';
+  } else {
+      hiddenContent.style.display = 'none';
+  }
+});
+
+
+window.addEventListener('scroll', function() {
+  var hiddenContent = document.querySelector('.detail_mob_fixed_top');
+  var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+  var documentHeight = document.documentElement.scrollHeight;
+  var windowHeight = window.innerHeight;
+  var distanceFromBottom = documentHeight - (scrollPosition + windowHeight);
+
+  if (scrollPosition > 1200) {
+      hiddenContent.style.display = 'flex';
   } else {
       hiddenContent.style.display = 'none';
   }

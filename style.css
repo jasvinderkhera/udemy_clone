@@ -89,12 +89,18 @@ nav {
 .teach_dropdown {
   position: relative;
 }
+.cart_dropdown{
+  position: relative;
+}
 
 .business_dropdown:hover .business_menu {
   display: block;
 }
 
 .teach_dropdown:hover .teach_menu {
+  display: block;
+}
+.cart_dropdown:hover .cart_menu {
   display: block;
 }
 
@@ -121,6 +127,20 @@ nav {
   height: 170px;
   font-weight: 900;
   font-size: 20px;
+  text-align: center;
+  line-height: 1.1;
+  z-index: 99;
+  background-color: white;
+  box-shadow: 1px 2px 10px #888888;
+}
+.cart_menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  padding: 15px 25px;
+  width: 270px;
+  height: 90px;
   text-align: center;
   line-height: 1.1;
   z-index: 99;
@@ -1775,6 +1795,66 @@ width: 100%;
   width: 100%;
 }
 
+.detail_mob_review_rating{
+  width: 100%;
+  overflow: scroll;
+}
+
+.detail_mob_review_rating_box {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-top: 1px solid #ccc;
+  
+}
+.detail_mob_review_rating_box .boxx{
+  width: 320px;
+  padding: 10px 10px;
+}
+
+.detail_mob_reviews_btn {
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 0;
+  width: 100%;
+  font-weight: 700;
+}
+.detail_mob_report_btn {
+  background-color: white;
+  width: 100%;
+  border: 1px solid;
+  height: 40px;
+  font-weight: 700;
+}
+
+.detail_mob_fixed_bottom{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+
+.detail_mob_fixed_top{
+  background-color: white;
+  display: none;
+  justify-content: space-between;
+  box-shadow: 3px -4px 11px black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.detail_mob_fixed_top a{
+  text-decoration: none;
+  color: #3b198f;
+  font-weight: bold;
+  font-size: 12px;
+}
 
 }
 
