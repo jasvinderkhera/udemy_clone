@@ -16,6 +16,8 @@ body {
 }
 
 nav {
+  width: 1518px;
+  margin: auto;
   height: 70px;
   /* border-bottom: 0.5px solid rgba(128, 128, 128, 0.66); */
   box-shadow: 2px 2px 4px 0px #88888851;
