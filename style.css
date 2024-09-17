@@ -852,9 +852,13 @@ body {
 
 /* Footer */
 .footer_container {
-  margin: 0;
   background-color: #2d2f31;
   border-top: 1px solid #3e4143;
+}
+
+.footer_inner_container{
+  width: 1507px;
+  margin: auto;
 }
 
 .top_companies {
@@ -957,6 +961,7 @@ body {
 .detail_side_2 {
   box-shadow: 0px 1px 4px #d6cfcf;
   background-color: white;
+  width: 340px;
 }
 .course_details_tab {
   margin-top: 0 !important;
@@ -976,6 +981,7 @@ body {
   font-size: 16px;
 }
 .course_detail_nav {
+  width: 340px;
   height: 50px;
 }
 
