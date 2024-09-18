@@ -904,6 +904,11 @@ body {
   font-size: 12px;
 }
 
+.rest_container{
+  width: 1510px;
+  margin: auto;
+}
+
 .first_detail_page_container {
   width: 1184px;
 }
@@ -1281,8 +1286,8 @@ body {
   display: none;
   position: fixed;
   top: 0;
-
-  width: 100%;
+  width: 1518px;
+  margin: auto;
 }
 
 .position_fx_nav {
@@ -1290,6 +1295,8 @@ body {
   color: white;
   padding: 12px 15px;
   box-shadow: 5px -4px 18px 0px black;
+  width: 1518px;
+  margin: auto;
 }
 
 .bdg {
